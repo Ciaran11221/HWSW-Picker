@@ -1,4 +1,5 @@
-// Generates corpus/INDEX.md from corpus/families/*.json.
+// Generates corpus/INDEX.md from corpus/families/*.json, and corpus/mistakes/INDEX.md
+// from corpus/mistakes/*.json.
 // Run with: npm run corpus:index
 //
 // renderIndex is pure (no file access) so tests can compare the committed
@@ -8,6 +9,7 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFamily, type Family } from '@hwsw/core';
+import { MISTAKES_INDEX_PATH, loadMistakes, renderMistakesIndex } from './mistakes-corpus';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const FAMILIES_DIR = path.join(ROOT, 'corpus', 'families');
@@ -58,4 +60,7 @@ if (isEntryPoint()) {
   const families = loadFamilies();
   writeFileSync(INDEX_PATH, renderIndex(families), 'utf8');
   console.log(`Wrote ${path.relative(ROOT, INDEX_PATH)} (${families.length} families)`);
+  const mistakes = loadMistakes();
+  writeFileSync(MISTAKES_INDEX_PATH, renderMistakesIndex(mistakes), 'utf8');
+  console.log(`Wrote ${path.relative(ROOT, MISTAKES_INDEX_PATH)} (${mistakes.length} mistakes)`);
 }
