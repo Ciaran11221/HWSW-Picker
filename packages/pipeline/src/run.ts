@@ -11,7 +11,6 @@
 
 import { appendFileSync, existsSync, mkdirSync, renameSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import type { Dataset, Family, PipelineError, RepoRecord } from '@hwsw/core';
 import { assemble, MIN_CONTRIBUTORS } from './assemble';
 import { GitHubClient, RunAborted } from './github/client';
