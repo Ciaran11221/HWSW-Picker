@@ -29,6 +29,7 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 |---|---|
 | `npm ci` | Install exact dependencies |
 | `npm test` | All tests (vitest) |
+| `npm run test:coverage` | All tests plus the coverage gate: fails under 80% of lines in `packages/*/src` (what CI runs) |
 | `npm run typecheck` | `tsc --noEmit` across packages |
 | `npm run corpus:index` | Regenerate `corpus/INDEX.md` |
 | `npm run fixtures:update` | Rewrite every `corpus/manifests/**/*.expected.json` from the current parsers. Review the diff before committing |
@@ -47,3 +48,6 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | 2026-11-01 | Manifests read from the root plus one level (`apps/*`, `packages/*`, `frontend/`, `backend/`) |
 | 2026-11-01 | Out-of-date = endoflife.date + npm `deprecated` / PyPI `yanked` + no release in 24 months |
 | 2026-11-01 | Thoughtworks Radar dropped for v1: no reuse terms found |
+| 2026-11-01 | `main` is protected: PR + green `test` check + up to date, admins included, no force-push |
+| 2026-11-01 | Coverage gate: 80% lines in `packages/*/src`, enforced in CI |
+| 2026-11-01 | Error reports: Actions job summary + auto-opened issue on scheduled failure + site banner |
