@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "tag": "docker:python",
+      "spec": "3.12-slim",
+      "version": "3.12",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "FROM line has no image",
+      "file": "Dockerfile",
+      "detail": "FROM"
+    },
+    {
+      "kind": "parse",
+      "message": "FROM line has no image",
+      "file": "Dockerfile",
+      "detail": "FROM --platform=linux/amd64"
+    },
+    {
+      "kind": "parse",
+      "message": "empty image reference",
+      "file": "Dockerfile",
+      "detail": "FROM :1.0"
+    }
+  ]
+}

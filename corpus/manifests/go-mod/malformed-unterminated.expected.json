@@ -1,0 +1,29 @@
+{
+  "tags": [
+    {
+      "tag": "go:github.com/gin-gonic/gin",
+      "spec": "v1.9.1",
+      "version": "1.9.1",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "require line is not \"<module> <version>\"",
+      "file": "go.mod",
+      "detail": "github.com/missing/version"
+    },
+    {
+      "kind": "parse",
+      "message": "require line is not \"<module> <version>\"",
+      "file": "go.mod",
+      "detail": "github.com/bad/version notaversion"
+    },
+    {
+      "kind": "parse",
+      "message": "unterminated require block; file may be truncated",
+      "file": "go.mod"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "invalid JSON",
+      "file": "package.json",
+      "detail": "near line 5"
+    }
+  ]
+}

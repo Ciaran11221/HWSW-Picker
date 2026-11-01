@@ -11,7 +11,8 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | Path | Holds |
 |---|---|
 | `packages/core` | Shared types: tag ids, families, repo records, out-of-date status. Used by both the pipeline and the site |
-| `packages/pipeline` | Fetch repos (GitHub GraphQL), parse manifests, apply families and out-of-date flags, write the dataset |
+| `packages/pipeline` | Fetch repos (GitHub GraphQL), parse manifests, apply families and out-of-date flags, write the dataset. `src/parsers/` has one module per manifest format plus `parseManifest(fileName, content)` |
+| `corpus/manifests` | Golden fixtures for the manifest parsers: `<format>/<case>.<original file name>` plus `<case>.expected.json`. Change expected files only with `npm run fixtures:update`, then read the diff |
 | `corpus/families` | One JSON file per tag family (e.g. `react.json` groups `npm:react`, `npm:react-dom`, `npm:@types/react`) |
 | `corpus/INDEX.md` | Generated list of all families. Never edit by hand: `npm run corpus:index` |
 | `scripts` | Repo tooling (index generator) |
@@ -28,6 +29,7 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | `npm test` | All tests (vitest) |
 | `npm run typecheck` | `tsc --noEmit` across packages |
 | `npm run corpus:index` | Regenerate `corpus/INDEX.md` |
+| `npm run fixtures:update` | Rewrite every `corpus/manifests/**/*.expected.json` from the current parsers. Review the diff before committing |
 
 ## Tag rules
 - A tag id is `<ecosystem>:<package>`, all lowercase. Ecosystems: `npm`, `pypi`, `maven`, `go`, `cargo`, `docker`, `composer`, `gem`.

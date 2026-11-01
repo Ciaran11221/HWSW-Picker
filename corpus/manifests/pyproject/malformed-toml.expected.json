@@ -1,0 +1,11 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "invalid TOML",
+      "file": "pyproject.toml",
+      "detail": "line 6"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "tags": [
+    {
+      "tag": "go:github.com/gofiber/fiber/v3",
+      "spec": "v3.3.0",
+      "version": "3.3.0",
+      "dev": false
+    },
+    {
+      "tag": "go:github.com/golang-jwt/jwt/v5",
+      "spec": "v5.3.1",
+      "version": "5.3.1",
+      "dev": false
+    },
+    {
+      "tag": "go:github.com/jackc/pgx/v5",
+      "spec": "v5.10.0",
+      "version": "5.10.0",
+      "dev": false
+    },
+    {
+      "tag": "go:github.com/prometheus/client_golang",
+      "spec": "v1.23.2",
+      "version": "1.23.2",
+      "dev": false
+    },
+    {
+      "tag": "go:golang.org/x/crypto",
+      "spec": "v0.57.0",
+      "version": "0.57.0",
+      "dev": false
+    },
+    {
+      "tag": "go:gopkg.in/yaml.v3",
+      "spec": "v3.0.1",
+      "version": "3.0.1",
+      "dev": false
+    },
+    {
+      "tag": "go:github.com/beorn7/perks",
+      "spec": "v1.0.1",
+      "version": "1.0.1",
+      "dev": false
+    },
+    {
+      "tag": "go:github.com/cespare/xxhash/v2",
+      "spec": "v2.3.0",
+      "version": "2.3.0",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "example/odd-types",
+  "require": {
+    "laravel/framework": "^11.0",
+    "notvendor": "^1.0",
+    "vendor/numeric": 3
+  },
+  "require-dev": "phpunit/phpunit"
+}

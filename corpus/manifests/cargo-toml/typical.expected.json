@@ -1,0 +1,41 @@
+{
+  "tags": [
+    {
+      "tag": "cargo:walkdir",
+      "spec": "2",
+      "version": "2",
+      "dev": false
+    },
+    {
+      "tag": "cargo:serde",
+      "spec": "1",
+      "version": "1",
+      "dev": false
+    },
+    {
+      "tag": "cargo:serde_json",
+      "spec": "1",
+      "version": "1",
+      "dev": false
+    },
+    {
+      "tag": "cargo:clap",
+      "spec": "4.5",
+      "version": "4.5",
+      "dev": false
+    },
+    {
+      "tag": "cargo:ratatui",
+      "spec": "0.30",
+      "version": "0.30",
+      "dev": false
+    },
+    {
+      "tag": "cargo:tempfile",
+      "spec": "3",
+      "version": "3",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

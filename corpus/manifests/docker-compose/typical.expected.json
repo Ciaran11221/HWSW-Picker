@@ -1,0 +1,23 @@
+{
+  "tags": [
+    {
+      "tag": "docker:example-org/web-check",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "docker:postgres",
+      "spec": "16-alpine",
+      "version": "16",
+      "dev": false
+    },
+    {
+      "tag": "docker:redis",
+      "spec": "7.2",
+      "version": "7.2",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

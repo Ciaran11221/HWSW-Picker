@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "tag": "gem:puma",
+      "spec": null,
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "gem line without a quoted gem name",
+      "file": "Gemfile",
+      "detail": "gem rails, \"~> 7.1\""
+    },
+    {
+      "kind": "parse",
+      "message": "gem line without a quoted gem name",
+      "file": "Gemfile",
+      "detail": "gem"
+    },
+    {
+      "kind": "parse",
+      "message": "gem line without a quoted gem name",
+      "file": "Gemfile",
+      "detail": "gem :symbol_name"
+    }
+  ]
+}

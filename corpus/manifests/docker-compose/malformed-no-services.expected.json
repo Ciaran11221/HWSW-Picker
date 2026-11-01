@@ -1,0 +1,10 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "no top-level \"services:\" key found",
+      "file": "docker-compose.yml"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "tags": [
+    {
+      "tag": "maven:org.springframework.boot:spring-boot-starter-web",
+      "spec": "3.3.1",
+      "version": "3.3.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.junit.jupiter:junit-jupiter",
+      "spec": "5.10.2",
+      "version": "5.10.2",
+      "dev": true
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "unbalanced braces (1 open, 0 close); file may be truncated",
+      "file": "build.gradle"
+    },
+    {
+      "kind": "parse",
+      "message": "dependency string is not group:artifact[:version]",
+      "file": "build.gradle",
+      "detail": "implementation 'junit'"
+    }
+  ]
+}

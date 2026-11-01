@@ -1,0 +1,65 @@
+{
+  "tags": [
+    {
+      "tag": "gem:sinatra",
+      "spec": ">= 3.0, < 5",
+      "version": "3.0",
+      "dev": false
+    },
+    {
+      "tag": "gem:my_fork",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "gem:local_gem",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "gem:capybara",
+      "spec": null,
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "gem:pry",
+      "spec": null,
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "gem:simplecov",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "gem:jdbc-postgres",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "gem:inner_test_gem",
+      "spec": null,
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "gem:webmock",
+      "spec": "~> 3.23",
+      "version": "3.23",
+      "dev": true
+    },
+    {
+      "tag": "gem:after_blocks",
+      "spec": "~> 1.0",
+      "version": "1.0",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

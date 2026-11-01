@@ -8,6 +8,8 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "@hwsw/core": "0.0.0"
+    "@hwsw/core": "0.0.0",
+    "fast-xml-parser": "^5.11.2",
+    "smol-toml": "^1.9.1"
   }
 }

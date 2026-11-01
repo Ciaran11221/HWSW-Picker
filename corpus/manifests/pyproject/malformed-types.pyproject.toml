@@ -1,0 +1,15 @@
+[project]
+name = "odd-types"
+dependencies = [
+    "torch>=2.0.0",
+    42,
+    "@@not a requirement@@",
+]
+
+[project.optional-dependencies]
+dev = "pytest"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = 8
+rich = "^13.7"

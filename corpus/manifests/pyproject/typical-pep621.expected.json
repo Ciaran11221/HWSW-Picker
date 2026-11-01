@@ -1,0 +1,53 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:torch",
+      "spec": ">=2.0.0",
+      "version": "2.0.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:transformers",
+      "spec": ">=4.50.0",
+      "version": "4.50.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:django",
+      "spec": ">=4.2,<5",
+      "version": "4.2",
+      "dev": false
+    },
+    {
+      "tag": "pypi:numpy",
+      "spec": "~=1.21",
+      "version": "1.21",
+      "dev": false
+    },
+    {
+      "tag": "pypi:pydantic",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "pypi:pytest",
+      "spec": ">=8",
+      "version": "8",
+      "dev": true
+    },
+    {
+      "tag": "pypi:ruff",
+      "spec": null,
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "pypi:flash-attn",
+      "spec": ">=2.5.0",
+      "version": "2.5.0",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

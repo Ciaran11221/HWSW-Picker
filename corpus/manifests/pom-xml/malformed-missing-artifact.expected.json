@@ -1,0 +1,18 @@
+{
+  "tags": [
+    {
+      "tag": "maven:org.example:fine",
+      "spec": "2.1.0",
+      "version": "2.1.0",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "<dependency> is missing groupId or artifactId",
+      "file": "pom.xml",
+      "detail": "{\"groupId\":\"org.example\",\"version\":\"1.0\"}"
+    }
+  ]
+}

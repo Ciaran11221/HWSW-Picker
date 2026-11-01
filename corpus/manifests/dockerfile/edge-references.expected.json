@@ -1,0 +1,60 @@
+{
+  "tags": [
+    {
+      "tag": "docker:ubuntu",
+      "spec": "22.04",
+      "version": "22.04",
+      "dev": false
+    },
+    {
+      "tag": "docker:example-org/builder-image",
+      "spec": "v3.1.4-slim",
+      "version": "3.1.4",
+      "dev": false
+    },
+    {
+      "tag": "docker:team/tool",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "docker:golang",
+      "spec": "1.22.3-bookworm",
+      "version": "1.22.3",
+      "dev": false
+    },
+    {
+      "tag": "docker:python",
+      "spec": "latest",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "docker:bitnami/postgresql",
+      "spec": "16",
+      "version": "16",
+      "dev": false
+    },
+    {
+      "tag": "docker:postgres",
+      "spec": "16",
+      "version": "16",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",
+      "file": "Dockerfile",
+      "detail": "FROM node:${NODE_VERSION}-bullseye AS final"
+    },
+    {
+      "kind": "parse",
+      "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",
+      "file": "Dockerfile",
+      "detail": "FROM $BASE_IMAGE"
+    }
+  ]
+}

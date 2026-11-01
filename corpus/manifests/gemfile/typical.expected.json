@@ -1,0 +1,53 @@
+{
+  "tags": [
+    {
+      "tag": "gem:rails",
+      "spec": "~> 7.1.3",
+      "version": "7.1.3",
+      "dev": false
+    },
+    {
+      "tag": "gem:pg",
+      "spec": "~> 1.5",
+      "version": "1.5",
+      "dev": false
+    },
+    {
+      "tag": "gem:puma",
+      "spec": ">= 5.0",
+      "version": "5.0",
+      "dev": false
+    },
+    {
+      "tag": "gem:bootsnap",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "gem:jekyll",
+      "spec": "~> 4.3",
+      "version": "4.3",
+      "dev": false
+    },
+    {
+      "tag": "gem:rspec-rails",
+      "spec": "~> 6.1",
+      "version": "6.1",
+      "dev": true
+    },
+    {
+      "tag": "gem:debug",
+      "spec": null,
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "gem:rubocop",
+      "spec": null,
+      "version": null,
+      "dev": true
+    }
+  ],
+  "errors": []
+}

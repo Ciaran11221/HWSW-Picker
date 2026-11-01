@@ -1,0 +1,27 @@
+{
+  "tags": [
+    {
+      "tag": "cargo:serde",
+      "spec": "1",
+      "version": "1",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "dependencies.bad-number is not a version string or table",
+      "file": "Cargo.toml"
+    },
+    {
+      "kind": "parse",
+      "message": "dependencies.bad-list is not a version string or table",
+      "file": "Cargo.toml"
+    },
+    {
+      "kind": "parse",
+      "message": "dev-dependencies.tempfile is not a version string or table",
+      "file": "Cargo.toml"
+    }
+  ]
+}

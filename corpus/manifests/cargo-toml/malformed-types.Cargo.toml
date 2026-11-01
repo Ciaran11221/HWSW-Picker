@@ -1,0 +1,10 @@
+[package]
+name = "odd-types"
+
+[dependencies]
+serde = "1"
+bad-number = 3
+bad-list = ["a", "b"]
+
+[dev-dependencies]
+tempfile = true

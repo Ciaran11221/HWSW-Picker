@@ -1,0 +1,34 @@
+{
+  "tags": [
+    {
+      "tag": "composer:laravel/framework",
+      "spec": "^11.0",
+      "version": "11.0",
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/numeric",
+      "spec": null,
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "\"require.notvendor\" is not a vendor/package name",
+      "file": "composer.json"
+    },
+    {
+      "kind": "parse",
+      "message": "\"require.vendor/numeric\" is not a string",
+      "file": "composer.json",
+      "detail": "3"
+    },
+    {
+      "kind": "parse",
+      "message": "\"require-dev\" is not an object",
+      "file": "composer.json"
+    }
+  ]
+}

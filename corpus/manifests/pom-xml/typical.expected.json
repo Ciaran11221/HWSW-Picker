@@ -1,0 +1,23 @@
+{
+  "tags": [
+    {
+      "tag": "maven:org.springframework.boot:spring-boot-starter-web",
+      "spec": "3.3.1",
+      "version": "3.3.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:com.fasterxml.jackson.core:jackson-databind",
+      "spec": "2.17.1",
+      "version": "2.17.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.junit.jupiter:junit-jupiter",
+      "spec": "5.10.2",
+      "version": "5.10.2",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

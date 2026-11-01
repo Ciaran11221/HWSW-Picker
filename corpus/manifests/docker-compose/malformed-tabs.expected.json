@@ -1,0 +1,10 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "tab used for indentation; YAML only allows spaces",
+      "file": "docker-compose.yml"
+    }
+  ]
+}

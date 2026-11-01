@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "tag": "docker:example-org/worker",
+      "spec": "2.4.1",
+      "version": "2.4.1",
+      "dev": false
+    },
+    {
+      "tag": "docker:nginx",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "docker:postgres",
+      "spec": "15",
+      "version": "15",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",
+      "file": "compose.yaml",
+      "detail": "image: postgres:${PG_VERSION:-16}"
+    }
+  ]
+}

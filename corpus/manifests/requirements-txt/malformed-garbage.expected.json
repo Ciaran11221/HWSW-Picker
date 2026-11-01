@@ -1,0 +1,60 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:requests",
+      "spec": ">=2.31",
+      "version": "2.31",
+      "dev": false
+    },
+    {
+      "tag": "pypi:numpy",
+      "spec": ">=1.26",
+      "version": "1.26",
+      "dev": false
+    },
+    {
+      "tag": "pypi:rich",
+      "spec": null,
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": "<<<<<<< HEAD"
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": "======="
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": ">>>>>>> feature"
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": "{\"not\": \"a requirements file\"}"
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": "click >> 8"
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement line",
+      "file": "requirements.txt",
+      "detail": "flask[unclosed>=2"
+    }
+  ]
+}

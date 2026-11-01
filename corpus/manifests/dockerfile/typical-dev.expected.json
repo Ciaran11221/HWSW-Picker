@@ -1,0 +1,11 @@
+{
+  "tags": [
+    {
+      "tag": "docker:python",
+      "spec": "3.11-slim",
+      "version": "3.11",
+      "dev": false
+    }
+  ],
+  "errors": []
+}
