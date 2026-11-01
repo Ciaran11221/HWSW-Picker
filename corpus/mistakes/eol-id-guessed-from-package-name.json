@@ -1,0 +1,7 @@
+{
+  "id": "eol-id-guessed-from-package-name",
+  "date": "2026-11-01",
+  "what_happened": "Node.js, Next.js and Tailwind CSS families were left with eol=null because their endoflife.date product ids (nodejs, nextjs, tailwind-css) differ from their package names (node, next, tailwindcss).",
+  "rule": "Never infer an eol id from a package name. Match endoflife.date products by package URL (purl) instead.",
+  "guard": "tests/corpus.test.ts > no family with eol=null has an endoflife.date product whose package URL maps to one of its members"
+}

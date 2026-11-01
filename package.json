@@ -12,7 +12,8 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "corpus:index": "tsx scripts/corpus-index.ts"
+    "corpus:index": "tsx scripts/corpus-index.ts",
+    "eol:snapshot": "tsx scripts/eol-snapshot.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
