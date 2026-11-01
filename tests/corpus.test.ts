@@ -78,6 +78,8 @@ describe('corpus/eol-products.json', () => {
     expect(purlToTagId('pkg:docker/library/node')).toBe('docker:node');
     expect(purlToTagId('pkg:docker/circleci/node')).toBe('docker:circleci/node');
     expect(purlToTagId('pkg:pypi/numpy')).toBe('pypi:numpy');
+    expect(purlToTagId('pkg:golang/github.com/gin-gonic/gin')).toBe('go:github.com/gin-gonic/gin');
+    expect(purlToTagId('pkg:maven/org.springframework.boot/spring-boot')).toBe('maven:org.springframework.boot:spring-boot');
     expect(purlToTagId('pkg:github/vercel/next.js')).toBeNull();
     expect(purlToTagId('pkg:generic/node')).toBeNull();
   });

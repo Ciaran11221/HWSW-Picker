@@ -41,7 +41,11 @@ export function purlToTagId(purl: string): TagId | null {
     return null;
   }
   if (type === 'docker') name = name.replace(/^library\//, '');
-  const tag = `${type}:${name}`.toLowerCase();
+  // Our maven tags are group:artifact; purls write group/artifact.
+  if (type === 'maven') name = name.replace('/', ':');
+  // purl calls the Go ecosystem "golang"; our tags call it "go".
+  const ecosystem = type === 'golang' ? 'go' : type;
+  const tag = `${ecosystem}:${name}`.toLowerCase();
   return isTagId(tag) ? tag : null;
 }
 
