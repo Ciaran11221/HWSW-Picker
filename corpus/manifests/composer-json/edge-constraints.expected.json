@@ -1,0 +1,53 @@
+{
+  "tags": [
+    {
+      "tag": "composer:symfony/console",
+      "spec": "^5.4|^6.0",
+      "version": "5.4",
+      "dev": false
+    },
+    {
+      "tag": "composer:doctrine/orm",
+      "spec": "2.17.*",
+      "version": "2.17",
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/dev-pkg",
+      "spec": "dev-main",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/aliased",
+      "spec": "dev-main as 1.0.x-dev",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/stable-flag",
+      "spec": "^1.2@dev",
+      "version": "1.2",
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/range",
+      "spec": ">=7.4 <8.0",
+      "version": "7.4",
+      "dev": false
+    },
+    {
+      "tag": "composer:vendor/any",
+      "spec": "*",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "composer:mockery/mockery",
+      "spec": "~1.6.0",
+      "version": "1.6.0",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "docker-image-dropped-for-variable-tag",
+  "date": "2026-11-01",
+  "what_happened": "FROM node:${NODE_VERSION} was recorded as a parse error and docker:node was lost, although only the version was a variable.",
+  "rule": "A variable in the image tag keeps the image with version null. Only a variable in the image name is an error.",
+  "guard": "tests/manifests.test.ts > keeps a docker image whose tag is only a variable, with version null"
+}

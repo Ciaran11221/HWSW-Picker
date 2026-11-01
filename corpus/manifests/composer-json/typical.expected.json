@@ -1,0 +1,35 @@
+{
+  "tags": [
+    {
+      "tag": "composer:laravel/framework",
+      "spec": "^11.0",
+      "version": "11.0",
+      "dev": false
+    },
+    {
+      "tag": "composer:guzzlehttp/guzzle",
+      "spec": "^7.8",
+      "version": "7.8",
+      "dev": false
+    },
+    {
+      "tag": "composer:monolog/monolog",
+      "spec": "^3.5",
+      "version": "3.5",
+      "dev": false
+    },
+    {
+      "tag": "composer:phpunit/phpunit",
+      "spec": "^11.0",
+      "version": "11.0",
+      "dev": true
+    },
+    {
+      "tag": "composer:fakerphp/faker",
+      "spec": "^1.23",
+      "version": "1.23",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

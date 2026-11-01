@@ -1,0 +1,25 @@
+name: edge
+# top-level comment
+services:
+
+  # a comment between services
+  api:
+    build: ./api
+  worker:
+    build:
+      context: .
+    image: ghcr.io/example-org/worker:2.4.1
+    command: ["run", "--image", "not-an-image"]
+  proxy:
+    image: docker.io/library/nginx@sha256:0123456789abcdef
+    environment:
+      image: this-is-an-env-name-not-a-service-field
+  db:
+    image: postgres:${PG_VERSION:-16}
+  db2:
+    image: postgres:15
+  dup:
+    image: postgres:14
+networks:
+  default:
+    image: ignored-because-outside-services

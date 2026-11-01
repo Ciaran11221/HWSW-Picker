@@ -1,0 +1,47 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:torch",
+      "spec": ">=2.0.0",
+      "version": "2.0.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:transformers",
+      "spec": ">=4.40.0",
+      "version": "4.40.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:numpy",
+      "spec": ">=1.24.0",
+      "version": "1.24.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:soundfile",
+      "spec": ">=0.12.0",
+      "version": "0.12.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:fastapi",
+      "spec": "==0.110.0",
+      "version": "0.110.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:uvicorn",
+      "spec": "~=0.27",
+      "version": "0.27",
+      "dev": false
+    },
+    {
+      "tag": "pypi:pydantic",
+      "spec": null,
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": []
+}

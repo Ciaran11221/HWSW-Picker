@@ -1,0 +1,10 @@
+requests>=2.31
+<<<<<<< HEAD
+numpy>=1.26
+=======
+numpy>=1.24
+>>>>>>> feature
+{"not": "a requirements file"}
+click >> 8
+flask[unclosed>=2
+rich

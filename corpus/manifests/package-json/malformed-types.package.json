@@ -1,0 +1,10 @@
+{
+  "name": "example-odd-types",
+  "dependencies": {
+    "react": "^18.2.0",
+    "weird": 42,
+    "nested": { "version": "1.0.0" }
+  },
+  "devDependencies": ["eslint", "prettier"],
+  "optionalDependencies": null
+}

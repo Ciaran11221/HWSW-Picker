@@ -1,0 +1,47 @@
+{
+  "tags": [
+    {
+      "tag": "maven:org.springframework.boot:spring-boot-starter-web",
+      "spec": "3.3.1",
+      "version": "3.3.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:com.google.guava:guava",
+      "spec": "33.2.1-jre",
+      "version": "33.2.1-jre",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.apache.commons:commons-lang3",
+      "spec": "3.14.0",
+      "version": "3.14.0",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.projectlombok:lombok",
+      "spec": "1.18.32",
+      "version": "1.18.32",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.postgresql:postgresql",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "maven:org.junit.jupiter:junit-jupiter",
+      "spec": "5.10.2",
+      "version": "5.10.2",
+      "dev": true
+    },
+    {
+      "tag": "maven:org.junit.platform:junit-platform-launcher",
+      "spec": null,
+      "version": null,
+      "dev": true
+    }
+  ],
+  "errors": []
+}

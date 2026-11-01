@@ -1,0 +1,21 @@
+--index-url https://example.invalid/simple
+-r base.txt
+-c constraints.txt
+-e .
+-e git+https://example.invalid/team/proj.git#egg=proj
+./vendor/local_pkg
+git+https://example.invalid/team/other.git@v1.0#egg=other
+https://example.invalid/wheels/thing-1.0-py3-none-any.whl
+
+Django[argon2]>=4.2,<5 ; python_version >= "3.9"
+Flask_SQLAlchemy == 3.1.1
+PyYAML>=6.0 # inline comment
+requests (>=2.8.1)
+python-dateutil>=2.8,!=2.8.1
+cryptography==42.0.5 \
+    --hash=sha256:aaaa \
+    --hash=sha256:bbbb
+my.pkg_name~=1.4.2
+mylib @ https://example.invalid/mylib-2.0.tar.gz
+Django>=3.2
+pytest<9

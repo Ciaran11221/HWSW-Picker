@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "example-api"
+version = "0.3.0"
+description = "Example"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = { version = "^0.27.1", extras = ["standard"] }
+SQLAlchemy = ">=2.0,<2.1"
+my_private_lib = { git = "https://example.invalid/team/my-private-lib.git", branch = "main" }
+local-lib = { path = "../local-lib", develop = true }
+numpy = [
+    { version = "^1.26", python = ">=3.9,<3.13" },
+    { version = "^2.0", python = ">=3.13" },
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+black = "*"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

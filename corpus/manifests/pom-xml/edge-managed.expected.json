@@ -1,0 +1,35 @@
+{
+  "tags": [
+    {
+      "tag": "maven:com.google.guava:guava",
+      "spec": "33.2.1-jre",
+      "version": "33.2.1-jre",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.slf4j:slf4j-api",
+      "spec": "2.0.13",
+      "version": "2.0.13",
+      "dev": false
+    },
+    {
+      "tag": "maven:com.example:shared-core",
+      "spec": "2.5.0",
+      "version": "2.5.0",
+      "dev": false
+    },
+    {
+      "tag": "maven:commons-io:commons-io",
+      "spec": "[2.11,3.0)",
+      "version": "2.11",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.example:mystery",
+      "spec": "${undefined.version}",
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": []
+}

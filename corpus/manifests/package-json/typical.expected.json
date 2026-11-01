@@ -1,0 +1,71 @@
+{
+  "tags": [
+    {
+      "tag": "npm:@radix-ui/react-dialog",
+      "spec": "^1.0.5",
+      "version": "1.0.5",
+      "dev": false
+    },
+    {
+      "tag": "npm:clsx",
+      "spec": "^2.0.0",
+      "version": "2.0.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:next",
+      "spec": "14.2.35",
+      "version": "14.2.35",
+      "dev": false
+    },
+    {
+      "tag": "npm:pg",
+      "spec": "^8.11.3",
+      "version": "8.11.3",
+      "dev": false
+    },
+    {
+      "tag": "npm:react",
+      "spec": "^18",
+      "version": "18",
+      "dev": false
+    },
+    {
+      "tag": "npm:react-dom",
+      "spec": "^18",
+      "version": "18",
+      "dev": false
+    },
+    {
+      "tag": "npm:@types/node",
+      "spec": "^20",
+      "version": "20",
+      "dev": true
+    },
+    {
+      "tag": "npm:@types/react",
+      "spec": "^18",
+      "version": "18",
+      "dev": true
+    },
+    {
+      "tag": "npm:eslint",
+      "spec": "^8",
+      "version": "8",
+      "dev": true
+    },
+    {
+      "tag": "npm:tailwindcss",
+      "spec": "^3.3.0",
+      "version": "3.3.0",
+      "dev": true
+    },
+    {
+      "tag": "npm:typescript",
+      "spec": "^5",
+      "version": "5",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

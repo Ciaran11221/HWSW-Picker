@@ -1,0 +1,11 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "invalid XML (InvalidXml)",
+      "file": "pom.xml",
+      "detail": "line 1"
+    }
+  ]
+}

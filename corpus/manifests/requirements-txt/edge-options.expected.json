@@ -1,0 +1,59 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:django",
+      "spec": ">=4.2,<5",
+      "version": "4.2",
+      "dev": false
+    },
+    {
+      "tag": "pypi:flask-sqlalchemy",
+      "spec": "==3.1.1",
+      "version": "3.1.1",
+      "dev": false
+    },
+    {
+      "tag": "pypi:pyyaml",
+      "spec": ">=6.0",
+      "version": "6.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:requests",
+      "spec": ">=2.8.1",
+      "version": "2.8.1",
+      "dev": false
+    },
+    {
+      "tag": "pypi:python-dateutil",
+      "spec": ">=2.8,!=2.8.1",
+      "version": "2.8",
+      "dev": false
+    },
+    {
+      "tag": "pypi:cryptography",
+      "spec": "==42.0.5",
+      "version": "42.0.5",
+      "dev": false
+    },
+    {
+      "tag": "pypi:my-pkg-name",
+      "spec": "~=1.4.2",
+      "version": "1.4.2",
+      "dev": false
+    },
+    {
+      "tag": "pypi:mylib",
+      "spec": "https://example.invalid/mylib-2.0.tar.gz",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "pypi:pytest",
+      "spec": "<9",
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,107 @@
+{
+  "tags": [
+    {
+      "tag": "npm:left-pad",
+      "spec": "latest",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:lodash",
+      "spec": "*",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:express",
+      "spec": "4.x",
+      "version": "4",
+      "dev": false
+    },
+    {
+      "tag": "npm:react",
+      "spec": "^15.0.0 || ^16.0.0",
+      "version": "15.0.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:jquery",
+      "spec": ">=3.5.0 <4",
+      "version": "3.5.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:old-lib",
+      "spec": "<2.0.0",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:shared-ui",
+      "spec": "workspace:*",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:my-fork",
+      "spec": "github:someone/my-fork#main",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:from-git",
+      "spec": "git+https://example.invalid/team/from-git.git",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:from-disk",
+      "spec": "file:../from-disk",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:short-hand",
+      "spec": "someone/short-hand",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:tarball",
+      "spec": "https://example.invalid/tarball-1.2.3.tgz",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:string-width",
+      "spec": "^4.2.0",
+      "version": "4.2.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:mixed-case",
+      "spec": "1.0.0-beta.2",
+      "version": "1.0.0-beta.2",
+      "dev": false
+    },
+    {
+      "tag": "npm:react-dom",
+      "spec": "~16.14.0",
+      "version": "16.14.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:vitest",
+      "spec": "^1.2.3",
+      "version": "1.2.3",
+      "dev": true
+    },
+    {
+      "tag": "npm:fsevents",
+      "spec": "~2.3.2",
+      "version": "2.3.2",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

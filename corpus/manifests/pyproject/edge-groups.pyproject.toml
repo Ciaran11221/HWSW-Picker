@@ -1,0 +1,19 @@
+[project]
+name = "edge-groups"
+dependencies = [
+    "Requests >= 2.31",
+    "mylib @ https://example.invalid/mylib-2.0.tar.gz",
+    "Flask_Login==0.6.3",
+    "requests<3",
+]
+
+[project.optional-dependencies]
+Test = ["coverage>=7"]
+postgres = ["psycopg[binary]>=3.1"]
+
+[dependency-groups]
+lint = ["ruff>=0.4", { include-group = "typing" }]
+typing = ["mypy>=1.8"]
+
+[tool.uv]
+dev-dependencies = ["pre-commit>=3.7"]

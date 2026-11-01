@@ -1,0 +1,65 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:fastapi",
+      "spec": "^0.110.0",
+      "version": "0.110.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:uvicorn",
+      "spec": "^0.27.1",
+      "version": "0.27.1",
+      "dev": false
+    },
+    {
+      "tag": "pypi:sqlalchemy",
+      "spec": ">=2.0,<2.1",
+      "version": "2.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:my-private-lib",
+      "spec": "https://example.invalid/team/my-private-lib.git",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "pypi:local-lib",
+      "spec": "../local-lib",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "pypi:numpy",
+      "spec": "^1.26",
+      "version": "1.26",
+      "dev": false
+    },
+    {
+      "tag": "pypi:pytest",
+      "spec": "^8.0",
+      "version": "8.0",
+      "dev": true
+    },
+    {
+      "tag": "pypi:black",
+      "spec": "*",
+      "version": null,
+      "dev": true
+    },
+    {
+      "tag": "pypi:mkdocs",
+      "spec": "^1.5",
+      "version": "1.5",
+      "dev": true
+    },
+    {
+      "tag": "pypi:mypy",
+      "spec": "^1.8",
+      "version": "1.8",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

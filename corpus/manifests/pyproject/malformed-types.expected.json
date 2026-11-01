@@ -1,0 +1,40 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:torch",
+      "spec": ">=2.0.0",
+      "version": "2.0.0",
+      "dev": false
+    },
+    {
+      "tag": "pypi:rich",
+      "spec": "^13.7",
+      "version": "13.7",
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "project.dependencies has a non-string entry",
+      "file": "pyproject.toml",
+      "detail": "42"
+    },
+    {
+      "kind": "parse",
+      "message": "unrecognised requirement in project.dependencies",
+      "file": "pyproject.toml",
+      "detail": "@@not a requirement@@"
+    },
+    {
+      "kind": "parse",
+      "message": "project.optional-dependencies.dev is not an array",
+      "file": "pyproject.toml"
+    },
+    {
+      "kind": "parse",
+      "message": "tool.poetry.dependencies.click is not a version string or table",
+      "file": "pyproject.toml"
+    }
+  ]
+}

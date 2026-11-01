@@ -1,0 +1,4 @@
+web:
+  image: nginx:1.25
+db:
+  image: postgres:16

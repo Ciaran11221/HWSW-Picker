@@ -13,6 +13,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "corpus:index": "tsx scripts/corpus-index.ts",
+    "fixtures:update": "tsx packages/pipeline/src/update-fixtures.ts",
     "eol:snapshot": "tsx scripts/eol-snapshot.ts"
   },
   "devDependencies": {

@@ -1,0 +1,46 @@
+{
+  "tags": [
+    {
+      "tag": "npm:react",
+      "spec": "^18.2.0",
+      "version": "18.2.0",
+      "dev": false
+    },
+    {
+      "tag": "npm:weird",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "npm:nested",
+      "spec": null,
+      "version": null,
+      "dev": false
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "\"dependencies.weird\" is not a string",
+      "file": "package.json",
+      "detail": "42"
+    },
+    {
+      "kind": "parse",
+      "message": "\"dependencies.nested\" is not a string",
+      "file": "package.json",
+      "detail": "{\"version\":\"1.0.0\"}"
+    },
+    {
+      "kind": "parse",
+      "message": "\"devDependencies\" is not an object",
+      "file": "package.json"
+    },
+    {
+      "kind": "parse",
+      "message": "\"optionalDependencies\" is not an object",
+      "file": "package.json"
+    }
+  ]
+}

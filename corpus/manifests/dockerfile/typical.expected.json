@@ -1,0 +1,17 @@
+{
+  "tags": [
+    {
+      "tag": "docker:node",
+      "spec": "20-alpine",
+      "version": "20",
+      "dev": false
+    },
+    {
+      "tag": "docker:nginx",
+      "spec": "1.25",
+      "version": "1.25",
+      "dev": false
+    }
+  ],
+  "errors": []
+}

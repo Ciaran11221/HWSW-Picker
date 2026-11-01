@@ -114,3 +114,38 @@ export function parseFamily(json: unknown): Family {
 
   return { id, name, kind: kind as FamilyKind, members: members as TagId[], eol };
 }
+
+/** Where in the pipeline a recoverable problem happened. */
+export type PipelineErrorKind = 'fetch' | 'rate_limit' | 'parse' | 'eol_lookup' | 'registry';
+
+/**
+ * A recoverable problem. The pipeline records these and keeps going, so one bad
+ * repo or file cannot kill a 36k-repo run.
+ */
+export interface PipelineError {
+  kind: PipelineErrorKind;
+  message: string;
+  /** `owner/name` of the repo being processed, when known. */
+  repo?: string;
+  /** Manifest file name or path the error came from. */
+  file?: string;
+  /** Extra context: the offending line, a status code, etc. */
+  detail?: string;
+}
+
+/** One dependency read from a manifest. */
+export interface ManifestTag {
+  tag: TagId;
+  /** The raw constraint as written (`^18.2.0`, `>=4.2,<5`), or null when none is written. */
+  spec: string | null;
+  /** Lowest concrete version in `spec` (`18.2.0`, `4.2`), or null for `*`, `latest`, git/url/path deps. */
+  version: string | null;
+  /** True for devDependencies, dev/test groups and test scope. */
+  dev: boolean;
+}
+
+/** What a manifest parser returns: the tags it could read, plus everything it could not. */
+export interface ParseResult {
+  tags: ManifestTag[];
+  errors: PipelineError[];
+}

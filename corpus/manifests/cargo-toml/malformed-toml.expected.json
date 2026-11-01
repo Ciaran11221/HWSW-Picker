@@ -1,0 +1,11 @@
+{
+  "tags": [],
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "invalid TOML",
+      "file": "Cargo.toml",
+      "detail": "line 7"
+    }
+  ]
+}

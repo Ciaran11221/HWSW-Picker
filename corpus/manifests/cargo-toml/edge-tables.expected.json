@@ -1,0 +1,83 @@
+{
+  "tags": [
+    {
+      "tag": "cargo:reqwest",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "cargo:local-helper",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "cargo:shared",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "cargo:serde",
+      "spec": "1.0",
+      "version": "1.0",
+      "dev": false
+    },
+    {
+      "tag": "cargo:openssl",
+      "spec": "*",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "cargo:rand",
+      "spec": "=0.8.5",
+      "version": "0.8.5",
+      "dev": false
+    },
+    {
+      "tag": "cargo:regex",
+      "spec": "1.10",
+      "version": "1.10",
+      "dev": false
+    },
+    {
+      "tag": "cargo:cc",
+      "spec": "^1.0",
+      "version": "1.0",
+      "dev": false
+    },
+    {
+      "tag": "cargo:core-crate",
+      "spec": "0.6.0",
+      "version": "0.6.0",
+      "dev": false
+    },
+    {
+      "tag": "cargo:anyhow",
+      "spec": "1.0.80",
+      "version": "1.0.80",
+      "dev": false
+    },
+    {
+      "tag": "cargo:tokio",
+      "spec": ">=1.35, <2",
+      "version": "1.35",
+      "dev": false
+    },
+    {
+      "tag": "cargo:winapi",
+      "spec": "0.3",
+      "version": "0.3",
+      "dev": false
+    },
+    {
+      "tag": "cargo:nix",
+      "spec": "0.28",
+      "version": "0.28",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,29 @@
+[workspace]
+resolver = "2"
+members = ["crates/core", "crates/cli"]
+
+[workspace.dependencies]
+core-crate = { version = "0.6.0", path = "crates/core" }
+anyhow = "1.0.80"
+tokio = { version = ">=1.35, <2", features = ["full"] }
+
+[dependencies]
+reqwest = { git = "https://example.invalid/team/reqwest.git", branch = "main" }
+local-helper = { path = "../local-helper" }
+shared = { workspace = true }
+my-serde = { package = "serde", version = "1.0" }
+openssl = "*"
+rand = "=0.8.5"
+
+[dependencies.regex]
+version = "1.10"
+default-features = false
+
+[build-dependencies]
+cc = "^1.0"
+
+[target.'cfg(windows)'.dependencies]
+winapi = "0.3"
+
+[target.'cfg(unix)'.dev-dependencies]
+nix = "0.28"

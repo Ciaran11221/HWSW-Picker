@@ -1,0 +1,65 @@
+{
+  "tags": [
+    {
+      "tag": "maven:org.apache.httpcomponents:httpclient",
+      "spec": "4.5.14",
+      "version": "4.5.14",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.yaml:snakeyaml",
+      "spec": null,
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "maven:com.squareup.okhttp3:okhttp",
+      "spec": "4.12.0",
+      "version": "4.12.0",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.slf4j:slf4j-api",
+      "spec": "2.0.13",
+      "version": "2.0.13",
+      "dev": false
+    },
+    {
+      "tag": "maven:com.fasterxml.jackson.core:jackson-core",
+      "spec": "$jacksonVersion",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "maven:androidx.appcompat:appcompat",
+      "spec": "1.6.1",
+      "version": "1.6.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:io.netty:netty-transport-native-epoll",
+      "spec": "4.1.100.Final",
+      "version": "4.1.100.Final",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.hibernate:hibernate-core",
+      "spec": "6.5.2.Final",
+      "version": "6.5.2.Final",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.springframework.boot:spring-boot-dependencies",
+      "spec": "3.3.1",
+      "version": "3.3.1",
+      "dev": false
+    },
+    {
+      "tag": "maven:org.mockito:mockito-core",
+      "spec": "5.+",
+      "version": "5",
+      "dev": true
+    }
+  ],
+  "errors": []
+}

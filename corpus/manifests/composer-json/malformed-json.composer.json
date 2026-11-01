@@ -1,0 +1,6 @@
+{
+  "name": "example/broken",
+  "require": {
+    "laravel/framework": "^11.0",
+  },
+}

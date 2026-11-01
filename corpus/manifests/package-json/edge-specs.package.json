@@ -1,0 +1,30 @@
+{
+  "name": "example-monorepo-app",
+  "dependencies": {
+    "left-pad": "latest",
+    "lodash": "*",
+    "express": "4.x",
+    "react": "^15.0.0 || ^16.0.0",
+    "jquery": ">=3.5.0 <4",
+    "old-lib": "<2.0.0",
+    "shared-ui": "workspace:*",
+    "my-fork": "github:someone/my-fork#main",
+    "from-git": "git+https://example.invalid/team/from-git.git",
+    "from-disk": "file:../from-disk",
+    "short-hand": "someone/short-hand",
+    "tarball": "https://example.invalid/tarball-1.2.3.tgz",
+    "string-width-cjs": "npm:string-width@^4.2.0",
+    "Mixed-Case": "1.0.0-beta.2",
+    "react-dom": "~16.14.0"
+  },
+  "devDependencies": {
+    "react": "^17.0.0",
+    "vitest": "^1.2.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "~2.3.2"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  }
+}

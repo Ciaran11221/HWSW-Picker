@@ -1,0 +1,53 @@
+{
+  "tags": [
+    {
+      "tag": "pypi:requests",
+      "spec": ">=2.31",
+      "version": "2.31",
+      "dev": false
+    },
+    {
+      "tag": "pypi:mylib",
+      "spec": "https://example.invalid/mylib-2.0.tar.gz",
+      "version": null,
+      "dev": false
+    },
+    {
+      "tag": "pypi:flask-login",
+      "spec": "==0.6.3",
+      "version": "0.6.3",
+      "dev": false
+    },
+    {
+      "tag": "pypi:coverage",
+      "spec": ">=7",
+      "version": "7",
+      "dev": true
+    },
+    {
+      "tag": "pypi:psycopg",
+      "spec": ">=3.1",
+      "version": "3.1",
+      "dev": false
+    },
+    {
+      "tag": "pypi:ruff",
+      "spec": ">=0.4",
+      "version": "0.4",
+      "dev": true
+    },
+    {
+      "tag": "pypi:mypy",
+      "spec": ">=1.8",
+      "version": "1.8",
+      "dev": true
+    },
+    {
+      "tag": "pypi:pre-commit",
+      "spec": ">=3.7",
+      "version": "3.7",
+      "dev": true
+    }
+  ],
+  "errors": []
+}
