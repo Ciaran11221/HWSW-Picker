@@ -1,0 +1,7 @@
+{
+  "id": "tailwindcss",
+  "name": "Tailwind CSS",
+  "kind": "library",
+  "members": ["npm:tailwindcss"],
+  "eol": "tailwind-css"
+}

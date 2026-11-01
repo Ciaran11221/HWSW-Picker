@@ -1,0 +1,7 @@
+{
+  "id": "torch",
+  "name": "PyTorch",
+  "kind": "framework",
+  "members": ["pypi:torch"],
+  "eol": null
+}

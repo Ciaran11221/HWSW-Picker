@@ -1,0 +1,7 @@
+{
+  "id": "typescript",
+  "name": "TypeScript",
+  "kind": "language",
+  "members": ["npm:typescript"],
+  "eol": null
+}

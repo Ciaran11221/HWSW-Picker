@@ -1,0 +1,7 @@
+{
+  "id": "express",
+  "name": "Express",
+  "kind": "framework",
+  "members": ["npm:express"],
+  "eol": "express"
+}

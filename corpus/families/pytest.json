@@ -1,0 +1,7 @@
+{
+  "id": "pytest",
+  "name": "pytest",
+  "kind": "tool",
+  "members": ["pypi:pytest"],
+  "eol": null
+}

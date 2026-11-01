@@ -1,0 +1,7 @@
+{
+  "id": "numpy",
+  "name": "NumPy",
+  "kind": "library",
+  "members": ["pypi:numpy"],
+  "eol": "numpy"
+}

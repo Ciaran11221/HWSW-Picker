@@ -1,0 +1,7 @@
+{
+  "id": "matplotlib",
+  "name": "Matplotlib",
+  "kind": "library",
+  "members": ["pypi:matplotlib"],
+  "eol": null
+}

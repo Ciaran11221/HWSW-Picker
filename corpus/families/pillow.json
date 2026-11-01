@@ -1,0 +1,7 @@
+{
+  "id": "pillow",
+  "name": "Pillow",
+  "kind": "library",
+  "members": ["pypi:pillow"],
+  "eol": null
+}

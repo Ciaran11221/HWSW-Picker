@@ -1,0 +1,7 @@
+{
+  "id": "pandas",
+  "name": "pandas",
+  "kind": "library",
+  "members": ["pypi:pandas"],
+  "eol": null
+}

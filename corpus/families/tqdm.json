@@ -1,0 +1,7 @@
+{
+  "id": "tqdm",
+  "name": "tqdm",
+  "kind": "library",
+  "members": ["pypi:tqdm"],
+  "eol": null
+}
