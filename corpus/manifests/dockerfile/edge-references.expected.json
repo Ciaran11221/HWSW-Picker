@@ -31,6 +31,12 @@
       "dev": false
     },
     {
+      "tag": "docker:node",
+      "spec": "${NODE_VERSION}-bullseye",
+      "version": null,
+      "dev": false
+    },
+    {
       "tag": "docker:bitnami/postgresql",
       "spec": "16",
       "version": "16",
@@ -44,12 +50,6 @@
     }
   ],
   "errors": [
-    {
-      "kind": "parse",
-      "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",
-      "file": "Dockerfile",
-      "detail": "FROM node:${NODE_VERSION}-bullseye AS final"
-    },
     {
       "kind": "parse",
       "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",

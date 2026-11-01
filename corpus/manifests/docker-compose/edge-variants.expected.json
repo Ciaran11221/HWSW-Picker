@@ -19,12 +19,5 @@
       "dev": false
     }
   ],
-  "errors": [
-    {
-      "kind": "parse",
-      "message": "image reference uses a variable ($ARG or ${VAR}) and cannot be resolved",
-      "file": "compose.yaml",
-      "detail": "image: postgres:${PG_VERSION:-16}"
-    }
-  ]
+  "errors": []
 }

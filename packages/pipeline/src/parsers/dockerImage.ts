@@ -12,14 +12,17 @@ export function dockerTagVersion(tag: string | null): string | null {
 /**
  * Adds `docker:<image>` for an image reference such as `ghcr.io/org/app:1.2@sha256:...`.
  * The registry host and a leading `library/` are dropped; the part after `:` is the tag.
- * A reference that uses a variable (`$X`, `${X}`) cannot be resolved: it becomes a 'parse' error.
+ * A variable (`$X`, `${X}`) in the image name cannot be resolved: it becomes a 'parse' error.
+ * A variable only in the tag (`node:${NODE_VERSION}`) keeps the image with version null.
  */
 export function addImage(c: Collector, ref: string, dev: boolean, original: string): void {
-  if (ref.includes('$')) {
+  const noDigest = ref.split('@')[0];
+  const tagColon = noDigest.indexOf(':', noDigest.lastIndexOf('/') + 1);
+  const namePart = tagColon >= 0 ? noDigest.slice(0, tagColon) : noDigest;
+  if (namePart.includes('$')) {
     c.error('image reference uses a variable ($ARG or ${VAR}) and cannot be resolved', original);
     return;
   }
-  const noDigest = ref.split('@')[0];
   const parts = noDigest.split('/');
   if (parts.length > 1 && (/[.:]/.test(parts[0]) || parts[0] === 'localhost')) parts.shift(); // registry host
   if (parts.length === 2 && parts[0] === 'library') parts.shift();
@@ -32,5 +35,6 @@ export function addImage(c: Collector, ref: string, dev: boolean, original: stri
     c.error('empty image reference', original);
     return;
   }
-  c.add('docker', name, tag === '' ? null : tag, dev, { version: dockerTagVersion(tag) });
+  const version = tag !== null && tag.includes('$') ? null : dockerTagVersion(tag);
+  c.add('docker', name, tag === '' ? null : tag, dev, { version });
 }

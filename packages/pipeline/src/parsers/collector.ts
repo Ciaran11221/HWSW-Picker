@@ -14,7 +14,7 @@ export class Collector {
 
   /**
    * Adds a tag. The package name is lowercased and checked with `isTagId`; a bad
-   * name becomes a 'parse' error. A tag seen twice keeps the first, silently.
+   * name becomes a 'parse' error. A tag seen twice keeps the first, unless only the later one has a version.
    * `opts.version` overrides version extraction (use null for git / path deps).
    */
   add(
@@ -29,10 +29,18 @@ export class Collector {
       this.error(`invalid ${ecosystem} package name`, pkg);
       return;
     }
-    if (this.seen.has(id)) return;
-    this.seen.add(id);
     const cleanSpec = spec === null || spec.trim() === '' ? null : spec.trim();
     const version = opts.version !== undefined ? opts.version : lowestVersion(cleanSpec);
+    if (this.seen.has(id)) {
+      // Keep the first, unless it had no version and this one has.
+      const first = this.tags.find((t) => t.tag === id);
+      if (first && first.version === null && version !== null) {
+        first.spec = cleanSpec;
+        first.version = version;
+      }
+      return;
+    }
+    this.seen.add(id);
     this.tags.push({ tag: id, spec: cleanSpec, version, dev });
   }
 
