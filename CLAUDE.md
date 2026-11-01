@@ -15,6 +15,8 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | `corpus/manifests` | Golden fixtures for the manifest parsers: `<format>/<case>.<original file name>` plus `<case>.expected.json`. Change expected files only with `npm run fixtures:update`, then read the diff |
 | `corpus/families` | One JSON file per tag family (e.g. `react.json` groups `npm:react`, `npm:react-dom`, `npm:@types/react`) |
 | `corpus/INDEX.md` | Generated list of all families. Never edit by hand: `npm run corpus:index` |
+| `corpus/mistakes` | One JSON file per past mistake: what happened, rule, guard test. `INDEX.md` there is generated: `npm run corpus:index` |
+| `corpus/eol-products.json` | Committed snapshot of endoflife.date products that have a package URL (`[{id, purls}]`). Regenerate: `npm run eol:snapshot -- <path to eol_full.json>` |
 | `scripts` | Repo tooling (index generator) |
 | `tests` | Repo-level tests: map coverage, corpus schema, index freshness |
 | `spike` | Phase 0 throwaway Python measurements and `REPORT.md`. Not part of the product |

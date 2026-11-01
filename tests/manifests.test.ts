@@ -148,6 +148,16 @@ describe('parseManifest dispatch', () => {
     expect(r).toEqual({ tags: [{ tag: 'npm:react', spec: '^17.0.0', version: '17.0.0', dev: false }], errors: [] });
   });
 
+  it('keeps a docker image whose tag is only a variable, with version null', () => {
+    const r = parseManifest('Dockerfile', 'FROM node:${NODE_VERSION}-alpine\n');
+    expect(r).toEqual({ tags: [{ tag: 'docker:node', spec: '${NODE_VERSION}-alpine', version: null, dev: false }], errors: [] });
+  });
+
+  it('fills in a version from a later duplicate when the first had none', () => {
+    const r = parseManifest('Dockerfile', 'FROM node:${V} AS build\nFROM node:20-slim\n');
+    expect(r.tags).toEqual([{ tag: 'docker:node', spec: '20-slim', version: '20', dev: false }]);
+  });
+
   it('labels errors with the file name it was given', () => {
     const r = parseManifest('apps/web/package.json', '{');
     expect(r.errors[0].file).toBe('apps/web/package.json');

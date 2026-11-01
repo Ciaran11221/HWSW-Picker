@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "adonisjs",
+    "purls": [
+      "pkg:github/adonisjs/core",
+      "pkg:npm/%40adonisjs/core"
+    ]
+  },
+  {
+    "id": "akeneo-pim",
+    "purls": [
+      "pkg:github/akeneo/pim-community-dev"
+    ]
+  },
+  {
+    "id": "alibaba-dragonwell",
+    "purls": [
+      "pkg:docker/alibabadragonwell/dragonwell",
+      "pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/"
+    ]
+  },
+  {
+    "id": "alpine-linux",
+    "purls": [
+      "pkg:swid/alpine?tag_id=alpine"
+    ]
+  },
+  {
+    "id": "amazon-cdk",
+    "purls": [
+      "pkg:npm/aws-cdk",
+      "pkg:golang/github.com/aws/aws-cdk-go/awscdk/v2",
+      "pkg:github/aws/aws-cdk-go"
+    ]
+  },
+  {
+    "id": "amazon-corretto",
+    "purls": [
+      "pkg:docker/library/amazoncorretto",
+      "pkg:github/corretto/corretto-27",
+      "pkg:github/corretto/corretto-26",
+      "pkg:github/corretto/corretto-25",
+      "pkg:github/corretto/corretto-24",
+      "pkg:github/corretto/corretto-23",
+      "pkg:github/corretto/corretto-22",
+      "pkg:github/corretto/corretto-21",
+      "pkg:github/corretto/corretto-20",
+      "pkg:github/corretto/corretto-19",
+      "pkg:github/corretto/corretto-18",
+      "pkg:github/corretto/corretto-17",
+      "pkg:github/corretto/corretto-11",
+      "pkg:github/corretto/corretto-8"
+    ]
+  },
+  {
+    "id": "amazon-linux",
+    "purls": [
+      "pkg:docker/library/amazonlinux"
+    ]
+  },
+  {
+    "id": "angular",
+    "purls": [
+      "pkg:npm/%40angular/core",
+      "pkg:github/angular/angular"
+    ]
+  },
+  {
+    "id": "angularjs",
+    "purls": [
+      "pkg:npm/angular",
+      "pkg:github/angular/angular.js"
+    ]
+  },
+  {
+    "id": "ansible",
+    "purls": [
+      "pkg:pypi/ansible",
+      "pkg:deb/debian/ansible",
+      "pkg:apk/alpine/ansible",
+      "pkg:github/ansible/ansible"
+    ]
+  },
+  {
+    "id": "ant",
+    "purls": [
+      "pkg:deb/debian/ant",
+      "pkg:deb/ubuntu/ant",
+      "pkg:github/apache/ant",
+      "pkg:maven/org.apache.ant/ant",
+      "pkg:rpm/fedora/ant"
+    ]
+  },
+  {
+    "id": "apache-activemq",
+    "purls": [
+      "pkg:maven/org.apache.activemq/activemq-broker"
+    ]
+  },
+  {
+    "id": "apache-airflow",
+    "purls": [
+      "pkg:docker/apache/airflow",
+      "pkg:docker/bitnami/airflow",
+      "pkg:oci/airflow?repository_url=cgr.dev/chainguard",
+      "pkg:pypi/apache-airflow"
+    ]
+  },
+  {
+    "id": "apache-artemis",
+    "purls": [
+      "pkg:github/apache/artemis"
+    ]
+  },
+  {
+    "id": "apache-camel",
+    "purls": [
+      "pkg:docker/apache/camel",
+      "pkg:github/apache/camel",
+      "pkg:maven/org.apache.camel/camel"
+    ]
+  },
+  {
+    "id": "apache-cassandra",
+    "purls": [
+      "pkg:github/apache/cassandra",
+      "pkg:maven/org.apache.cassandra/apache-cassandra"
+    ]
+  },
+  {
+    "id": "apache-celeborn",
+    "purls": [
+      "pkg:github/apache/celeborn"
+    ]
+  },
+  {
+    "id": "apache-couchdb",
+    "purls": [
+      "pkg:github/apache/couchdb",
+      "pkg:docker/apache/couchdb",
+      "pkg:docker/library/couchdb",
+      "pkg:docker/bitnami/couchdb",
+      "pkg:docker/rapidfort/couchdb-official"
+    ]
+  },
+  {
+    "id": "apache-flink",
+    "purls": [
+      "pkg:github/apache/flink",
+      "pkg:docker/library/flink",
+      "pkg:docker/apache/flink"
+    ]
+  },
+  {
+    "id": "apache-groovy",
+    "purls": [
+      "pkg:maven/org.apache.groovy/groovy",
+      "pkg:maven/org.codehaus.groovy/groovy",
+      "pkg:maven/org.codehaus.groovy/groovy-all"
+    ]
+  },
+  {
+    "id": "apache-hadoop",
+    "purls": [
+      "pkg:docker/apache/hadoop",
+      "pkg:github/apache/hadoop",
+      "pkg:maven/org.apache.hadoop/hadoop-core"
+    ]
+  },
+  {
+    "id": "apache-http-server",
+    "purls": [
+      "pkg:github/apache/httpd",
+      "pkg:rpm/fedora/httpd",
+      "pkg:rpm/redhat/httpd"
+    ]
+  },
+  {
+    "id": "apache-kafka",
+    "purls": [
+      "pkg:github/apache/kafka"
+    ]
+  },
+  {
+    "id": "apache-maven",
+    "purls": [
+      "pkg:deb/debian/maven",
+      "pkg:deb/ubuntu/maven",
+      "pkg:github/apache/maven",
+      "pkg:maven/org.apache.maven/maven",
+      "pkg:rpm/opensuse/maven"
+    ]
+  },
+  {
+    "id": "apache-nifi",
+    "purls": [
+      "pkg:docker/apache/nifi",
+      "pkg:github/apache/nifi",
+      "pkg:maven/org.apache.nifi/nifi"
+    ]
+  },
+  {
+    "id": "apache-spark",
+    "purls": [
+      "pkg:github/apache/spark"
+    ]
+  },
+  {
+    "id": "apache-struts",
+    "purls": [
+      "pkg:maven/org.apache.struts/struts2-core"
+    ]
+  },
+  {
+    "id": "api-platform",
+    "purls": [
+      "pkg:composer/api-platform/core",
+      "pkg:github/api-platform/core"
+    ]
+  },
+  {
+    "id": "argo-cd",
+    "purls": [
+      "pkg:docker/argoproj/argocd",
+      "pkg:oci/argocd?repository_url=quay.io/argoproj",
+      "pkg:oci/argocd?repository_url=ghcr.io/argoproj",
+      "pkg:github/argoproj/argo-cd"
+    ]
+  },
+  {
+    "id": "argo-workflows",
+    "purls": [
+      "pkg:github/argoproj/argo-workflows",
+      "pkg:docker/argoproj/argocli",
+      "pkg:docker/argoproj/workflow-controller"
+    ]
+  },
+  {
+    "id": "authentik",
+    "purls": [
+      "pkg:github/goauthentik/authentik",
+      "pkg:docker/authentik/server"
+    ]
+  },
+  {
+    "id": "bazel",
+    "purls": [
+      "pkg:github/bazelbuild/bazel",
+      "pkg:oci/bazel?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "behat",
+    "purls": [
+      "pkg:composer/behat/behat",
+      "pkg:github/behat/behat"
+    ]
+  },
+  {
+    "id": "bellsoft-liberica",
+    "purls": [
+      "pkg:docker/bellsoft/liberica-openjdk-alpine",
+      "pkg:docker/bellsoft/liberica-openjre-alpine",
+      "pkg:docker/bellsoft/liberica-openjdk-alpine-musl",
+      "pkg:docker/bellsoft/liberica-openjre-alpine-musl",
+      "pkg:docker/bellsoft/liberica-openjdk-debian",
+      "pkg:docker/bellsoft/liberica-openjre-debian",
+      "pkg:docker/bellsoft/liberica-openjdk-centos",
+      "pkg:docker/bellsoft/liberica-openjre-centos",
+      "pkg:oci/liberica-openjdk-alpine?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjre-alpine?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjdk-alpine-musl?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjre-alpine-musl?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjdk-debian?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjre-debian?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjdk-centos?repository_url=ghcr.io/bell-sw",
+      "pkg:oci/liberica-openjre-centos?repository_url=ghcr.io/bell-sw",
+      "pkg:scoop/liberica-jdk",
+      "pkg:scoop/liberica-lts-jdk",
+      "pkg:scoop/liberica-lite-jdk",
+      "pkg:scoop/liberica-lite-lts-jdk",
+      "pkg:scoop/liberica-full-jdk",
+      "pkg:scoop/liberica-full-lts-jdk",
+      "pkg:scoop/liberica-jre",
+      "pkg:scoop/liberica-lts-jre",
+      "pkg:scoop/liberica-full-jre",
+      "pkg:scoop/liberica-full-lts-jre",
+      "pkg:scoop/liberica8-jre",
+      "pkg:scoop/liberica8-jdk",
+      "pkg:scoop/liberica8-full-jre",
+      "pkg:scoop/liberica8-full-jdk",
+      "pkg:scoop/liberica11-jre",
+      "pkg:scoop/liberica11-jdk",
+      "pkg:scoop/liberica11-full-jre",
+      "pkg:scoop/liberica11-full-jdk",
+      "pkg:scoop/liberica11-lite-jdk",
+      "pkg:scoop/liberica12-jre",
+      "pkg:scoop/liberica12-jdk",
+      "pkg:scoop/liberica12-lite-jdk",
+      "pkg:scoop/liberica13-jre",
+      "pkg:scoop/liberica13-jdk",
+      "pkg:scoop/liberica13-full-jre",
+      "pkg:scoop/liberica13-full-jdk",
+      "pkg:scoop/liberica13-lite-jdk",
+      "pkg:scoop/liberica14-jre",
+      "pkg:scoop/liberica14-jdk",
+      "pkg:scoop/liberica14-full-jre",
+      "pkg:scoop/liberica14-full-jdk",
+      "pkg:scoop/liberica14-lite-jdk",
+      "pkg:scoop/liberica15-jre",
+      "pkg:scoop/liberica15-jdk",
+      "pkg:scoop/liberica15-full-jre",
+      "pkg:scoop/liberica15-lite-jdk",
+      "pkg:scoop/liberica15-full-jdk",
+      "pkg:scoop/liberica16-jre",
+      "pkg:scoop/liberica16-jdk",
+      "pkg:scoop/liberica16-full-jre",
+      "pkg:scoop/liberica16-full-jdk",
+      "pkg:scoop/liberica16-lite-jdk",
+      "pkg:scoop/liberica17-jre",
+      "pkg:scoop/liberica17-jdk",
+      "pkg:scoop/liberica17-full-jre",
+      "pkg:scoop/liberica17-full-jdk",
+      "pkg:scoop/liberica17-lite-jdk",
+      "pkg:chocolatey/liberica11jdk",
+      "pkg:chocolatey/liberica11jdkfull",
+      "pkg:chocolatey/liberica11jre",
+      "pkg:chocolatey/liberica11jrefull",
+      "pkg:chocolatey/liberica17jdk",
+      "pkg:chocolatey/liberica17jdkfull",
+      "pkg:chocolatey/liberica17jdklite",
+      "pkg:chocolatey/liberica17jre",
+      "pkg:chocolatey/liberica17jrefull",
+      "pkg:chocolatey/liberica21jdk",
+      "pkg:chocolatey/liberica21jdkfull",
+      "pkg:chocolatey/liberica21jdklite",
+      "pkg:chocolatey/liberica21jre",
+      "pkg:chocolatey/liberica21jrefull",
+      "pkg:chocolatey/liberica8jdk",
+      "pkg:chocolatey/liberica8jre",
+      "pkg:chocolatey/libericajdk",
+      "pkg:chocolatey/libericajdkfull",
+      "pkg:chocolatey/libericajdklite",
+      "pkg:chocolatey/libericajre",
+      "pkg:chocolatey/libericajrefull",
+      "pkg:winget/BellSoft.LibericaJDK.8",
+      "pkg:winget/BellSoft.LibericaJDK.11",
+      "pkg:winget/BellSoft.LibericaJDK.14",
+      "pkg:winget/BellSoft.LibericaJDK.15",
+      "pkg:winget/BellSoft.LibericaJDK.16",
+      "pkg:winget/BellSoft.LibericaJDK.17",
+      "pkg:winget/BellSoft.LibericaJDK.18",
+      "pkg:winget/BellSoft.LibericaJDK.19",
+      "pkg:apk/alpine/bellsoft-java11?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java11-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java11-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java11-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java15?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java15-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java15-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java16?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java16-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java16-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java16-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java17?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java17-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java17-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java17-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java18?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java18-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java18-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java18-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java19?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java19-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java19-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java19-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java20?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java20-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java20-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java20-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java21?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java21-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java21-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java21-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java22?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java22-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java22-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java22-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java23?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java23-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java23-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java23-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java8?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java8-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java8-runtime?repository_url=https://apk.bell-sw.com/main",
+      "pkg:apk/alpine/bellsoft-java8-runtime-lite?repository_url=https://apk.bell-sw.com/main",
+      "pkg:rpm/bellsoft-java11?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java11-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java11-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java11-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java11-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java12?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java12-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java13?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java13-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java13-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java13-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java13-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java14?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java14-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java14-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java14-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java14-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java15?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java15-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java15-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java15-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java15-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java16?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java16-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java16-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java16-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java16-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java17?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java17-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java17-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java17-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java17-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java18?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java18-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java18-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java18-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java18-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java19?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java19-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java19-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java19-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java19-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java20?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java20-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java20-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java20-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java20-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java21?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java21-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java21-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java21-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java21-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java22?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java22-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java22-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java22-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java22-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java23?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java23-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java23-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java23-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java23-runtime-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java8?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java8-full?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java8-lite?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java8-runtime?repository_url=https://yum.bell-sw.com",
+      "pkg:rpm/bellsoft-java8-runtime-full?repository_url=https://yum.bell-sw.com"
+    ]
+  },
+  {
+    "id": "bind-9",
+    "purls": [
+      "pkg:docker/internetsystemsconsortium/bind9"
+    ]
+  },
+  {
+    "id": "bootstrap",
+    "purls": [
+      "pkg:npm/bootstrap",
+      "pkg:nuget/bootstrap",
+      "pkg:gem/bootstrap",
+      "pkg:composer/twbs/bootstrap",
+      "pkg:github/twbs/bootstrap"
+    ]
+  },
+  {
+    "id": "bun",
+    "purls": [
+      "pkg:docker/oven/bun",
+      "pkg:github/oven-sh/bun",
+      "pkg:brew/oven-sh/bun/bun",
+      "pkg:npm/bun",
+      "pkg:scoop/bun"
+    ]
+  },
+  {
+    "id": "cachet",
+    "purls": [
+      "pkg:composer/cachethq/cachet",
+      "pkg:github/cachethq/cachet"
+    ]
+  },
+  {
+    "id": "caddy",
+    "purls": [
+      "pkg:alpm/caddy",
+      "pkg:apk/alpine/caddy",
+      "pkg:brew/caddy",
+      "pkg:chocolatey/caddy",
+      "pkg:deb/debian/caddy",
+      "pkg:deb/ubuntu/caddy",
+      "pkg:docker/library/caddy",
+      "pkg:github/caddyserver/caddy",
+      "pkg:golang/github.com/caddyserver/caddy/v2",
+      "pkg:oci/caddy?repository_url=quay.io/repository/caddy",
+      "pkg:rpm/fedora/caddy",
+      "pkg:scoop/caddy"
+    ]
+  },
+  {
+    "id": "calico",
+    "purls": [
+      "pkg:github/projectcalico/calico",
+      "pkg:docker/calico/cni"
+    ]
+  },
+  {
+    "id": "ceph",
+    "purls": [
+      "pkg:github/ceph/ceph"
+    ]
+  },
+  {
+    "id": "cfengine",
+    "purls": [
+      "pkg:brew/cfengine"
+    ]
+  },
+  {
+    "id": "checkmk",
+    "purls": [
+      "pkg:github/Checkmk/checkmk"
+    ]
+  },
+  {
+    "id": "cilium",
+    "purls": [
+      "pkg:github/cilium/cilium",
+      "pkg:docker/cilium/cilium"
+    ]
+  },
+  {
+    "id": "clear-linux",
+    "purls": [
+      "pkg:docker/library/clearlinux"
+    ]
+  },
+  {
+    "id": "clickhouse",
+    "purls": [
+      "pkg:github/ClickHouse/ClickHouse",
+      "pkg:docker/library/clickhouse"
+    ]
+  },
+  {
+    "id": "cnspec",
+    "purls": [
+      "pkg:github/mondoohq/cnspec",
+      "pkg:docker/mondoo/cnspec"
+    ]
+  },
+  {
+    "id": "coder",
+    "purls": [
+      "pkg:github/coder/coder",
+      "pkg:generic/coder",
+      "pkg:oci/coder?repository_url=ghcr.io/coder",
+      "pkg:winget/Coder.Coder"
+    ]
+  },
+  {
+    "id": "composer",
+    "purls": [
+      "pkg:composer/composer/composer",
+      "pkg:docker/library/composer",
+      "pkg:github/composer/composer"
+    ]
+  },
+  {
+    "id": "concrete-cms",
+    "purls": [
+      "pkg:composer/concrete5/core",
+      "pkg:docker/fehrenbacher/concrete5",
+      "pkg:github/concretecms/concretecms"
+    ]
+  },
+  {
+    "id": "consul",
+    "purls": [
+      "pkg:docker/library/consul",
+      "pkg:github/hashicorp/consul",
+      "pkg:golang/github.com/hashicorp/consul"
+    ]
+  },
+  {
+    "id": "contour",
+    "purls": [
+      "pkg:github/projectcontour/contour",
+      "pkg:docker/projectcontour/contour",
+      "pkg:docker/bitnami/contour",
+      "pkg:oci/contour?repository_url=ghcr.io/projectcontour"
+    ]
+  },
+  {
+    "id": "couchbase-server",
+    "purls": [
+      "pkg:docker/library/couchbase",
+      "pkg:docker/couchbase/server"
+    ]
+  },
+  {
+    "id": "deno",
+    "purls": [
+      "pkg:brew/deno",
+      "pkg:cargo/deno",
+      "pkg:docker/denoland/deno",
+      "pkg:github/denoland/deno",
+      "pkg:npm/deno",
+      "pkg:oci/deno?repository_url=ghcr.io/denoland"
+    ]
+  },
+  {
+    "id": "discourse",
+    "purls": [
+      "pkg:docker/bitnami/discourse",
+      "pkg:docker/discourse/base"
+    ]
+  },
+  {
+    "id": "django",
+    "purls": [
+      "pkg:github/django/django",
+      "pkg:pypi/django"
+    ]
+  },
+  {
+    "id": "dotnet",
+    "purls": [
+      "pkg:nuget/Microsoft.NETCore.App",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.osx-x64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.osx-arm64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-x64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-x64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64",
+      "pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64",
+      "pkg:rpm/redhat/dotnet-sdk-8.0",
+      "pkg:rpm/redhat/dotnet-sdk-7.0",
+      "pkg:rpm/redhat/dotnet-sdk-6.0",
+      "pkg:rpm/redhat/dotnet-sdk-5.0",
+      "pkg:rpm/redhat/dotnet-sdk-3.1",
+      "pkg:rpm/redhat/dotnet-sdk-3.0",
+      "pkg:rpm/redhat/dotnet-sdk-2.1"
+    ]
+  },
+  {
+    "id": "dropwizard",
+    "purls": [
+      "pkg:github/dropwizard/dropwizard"
+    ]
+  },
+  {
+    "id": "drupal",
+    "purls": [
+      "pkg:composer/drupal/core",
+      "pkg:docker/bitnami/drupal",
+      "pkg:docker/library/drupal",
+      "pkg:github/drupal/core"
+    ]
+  },
+  {
+    "id": "drush",
+    "purls": [
+      "pkg:composer/drush/drush",
+      "pkg:github/drush-ops/drush"
+    ]
+  },
+  {
+    "id": "eclipse-jetty",
+    "purls": [
+      "pkg:maven/org.eclipse.jetty/jetty-server"
+    ]
+  },
+  {
+    "id": "elasticsearch",
+    "purls": [
+      "pkg:deb/debian/elasticsearch",
+      "pkg:deb/ubuntu/elasticsearch",
+      "pkg:rpm/amzn/elasticsearch",
+      "pkg:rpm/redhat/elasticsearch",
+      "pkg:rpm/centos/elasticsearch",
+      "pkg:github/elastic/elasticsearch",
+      "pkg:maven/org.elasticsearch/elasticsearch"
+    ]
+  },
+  {
+    "id": "emberjs",
+    "purls": [
+      "pkg:github/emberjs/ember.js",
+      "pkg:npm/ember-source"
+    ]
+  },
+  {
+    "id": "envoy",
+    "purls": [
+      "pkg:docker/envoyproxy/envoy",
+      "pkg:docker/envoyproxy/envoy-alpine",
+      "pkg:docker/envoyproxy/envoy-alpine-debug",
+      "pkg:docker/envoyproxy/envoy-distroless",
+      "pkg:docker/bitnami/envoy",
+      "pkg:docker/rapidfort/envoy-official",
+      "pkg:docker/hashicorp/envoy-fips",
+      "pkg:github/envoyproxy/envoy",
+      "pkg:golang/github.com/envoyproxy/envoy",
+      "pkg:oci/envoy?repository_url=cgr.dev/chainguard",
+      "pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "eslint",
+    "purls": [
+      "pkg:github/eslint/eslint",
+      "pkg:npm/eslint"
+    ]
+  },
+  {
+    "id": "etcd",
+    "purls": [
+      "pkg:docker/bitnami/etcd",
+      "pkg:oci/etcd?repository_url=quay.io/repository/coreos",
+      "pkg:oci/etcd?repository_url=gcr.io/etcd-development",
+      "pkg:github/etcd-io/etcd",
+      "pkg:golang/github.com/etcd-io/etcd"
+    ]
+  },
+  {
+    "id": "express",
+    "purls": [
+      "pkg:github/expressjs/express",
+      "pkg:npm/express"
+    ]
+  },
+  {
+    "id": "external-dns",
+    "purls": [
+      "pkg:github/kubernetes-sigs/external-dns"
+    ]
+  },
+  {
+    "id": "ffmpeg",
+    "purls": [
+      "pkg:brew/ffmpeg",
+      "pkg:deb/debian/ffmpeg",
+      "pkg:deb/ubuntu/ffmpeg",
+      "pkg:github/ffmpeg/ffmpeg",
+      "pkg:rpm/fedora/ffmpeg"
+    ]
+  },
+  {
+    "id": "firefox",
+    "purls": [
+      "pkg:apk/alpine/firefox",
+      "pkg:deb/debian/firefox-esr",
+      "pkg:generic/firefox"
+    ]
+  },
+  {
+    "id": "fluent-bit",
+    "purls": [
+      "pkg:github/fluent/fluent-bit",
+      "pkg:docker/fluent/fluent-bit"
+    ]
+  },
+  {
+    "id": "font-awesome",
+    "purls": [
+      "pkg:github/fortawesome/font-awesome",
+      "pkg:npm/%40fortawesome/fontawesome-svg-core"
+    ]
+  },
+  {
+    "id": "foundationdb",
+    "purls": [
+      "pkg:github/apple/foundationdb"
+    ]
+  },
+  {
+    "id": "gatekeeper",
+    "purls": [
+      "pkg:github/open-policy-agent/gatekeeper",
+      "pkg:docker/openpolicyagent/gatekeeper",
+      "pkg:oci/gatekeeper?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "gerrit",
+    "purls": [
+      "pkg:docker/gerritcodereview/gerrit"
+    ]
+  },
+  {
+    "id": "git",
+    "purls": [
+      "pkg:generic/git"
+    ]
+  },
+  {
+    "id": "gitlab-runner",
+    "purls": [
+      "pkg:docker/gitlab/gitlab-runner"
+    ]
+  },
+  {
+    "id": "gleam",
+    "purls": [
+      "pkg:github/gleam-lang/gleam",
+      "pkg:oci/gleam?repository_url=ghcr.io/gleam-lang"
+    ]
+  },
+  {
+    "id": "go",
+    "purls": [
+      "pkg:generic/go",
+      "pkg:docker/library/golang",
+      "pkg:docker/circleci/golang",
+      "pkg:docker/cimg/go",
+      "pkg:docker/bitnami/golang",
+      "pkg:brew/go"
+    ]
+  },
+  {
+    "id": "goaccess",
+    "purls": [
+      "pkg:docker/allinurl/goaccess"
+    ]
+  },
+  {
+    "id": "gorilla",
+    "purls": [
+      "pkg:github/gorilla/context",
+      "pkg:github/gorilla/csrf",
+      "pkg:github/gorilla/css",
+      "pkg:github/gorilla/handlers",
+      "pkg:github/gorilla/mux",
+      "pkg:github/gorilla/pat",
+      "pkg:github/gorilla/rpc",
+      "pkg:github/gorilla/schema",
+      "pkg:github/gorilla/securecookie",
+      "pkg:github/gorilla/sessions",
+      "pkg:github/gorilla/websocket",
+      "pkg:golang/github.com/gorilla/context",
+      "pkg:golang/github.com/gorilla/csrf",
+      "pkg:golang/github.com/gorilla/css",
+      "pkg:golang/github.com/gorilla/handlers",
+      "pkg:golang/github.com/gorilla/mux",
+      "pkg:golang/github.com/gorilla/pat",
+      "pkg:golang/github.com/gorilla/rpc",
+      "pkg:golang/github.com/gorilla/schema",
+      "pkg:golang/github.com/gorilla/securecookie",
+      "pkg:golang/github.com/gorilla/sessions",
+      "pkg:golang/github.com/gorilla/websocket"
+    ]
+  },
+  {
+    "id": "grafana",
+    "purls": [
+      "pkg:github/grafana/grafana",
+      "pkg:golang/github.com/grafana/grafana"
+    ]
+  },
+  {
+    "id": "grafana-loki",
+    "purls": [
+      "pkg:github/grafana/loki",
+      "pkg:docker/grafana/loki",
+      "pkg:docker/ubuntu/loki",
+      "pkg:docker/bitnami/grafana-loki",
+      "pkg:oci/loki?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "grails",
+    "purls": [
+      "pkg:maven/org.apache.grails/grails"
+    ]
+  },
+  {
+    "id": "grumphp",
+    "purls": [
+      "pkg:composer/phpro/grumphp",
+      "pkg:github/phpro/grumphp"
+    ]
+  },
+  {
+    "id": "grunt",
+    "purls": [
+      "pkg:github/gruntjs/grunt",
+      "pkg:npm/grunt"
+    ]
+  },
+  {
+    "id": "guzzle",
+    "purls": [
+      "pkg:composer/guzzlehttp/guzzle",
+      "pkg:github/guzzle/guzzle"
+    ]
+  },
+  {
+    "id": "haproxy",
+    "purls": [
+      "pkg:generic/haproxy",
+      "pkg:deb/debian/haproxy",
+      "pkg:deb/ubuntu/haproxy",
+      "pkg:rpm/amzn/haproxy",
+      "pkg:rpm/redhat/haproxy",
+      "pkg:rpm/centos/haproxy",
+      "pkg:apk/alpine/haproxy"
+    ]
+  },
+  {
+    "id": "haproxy-ingress",
+    "purls": [
+      "pkg:github/jcmoraisjr/haproxy-ingress"
+    ]
+  },
+  {
+    "id": "harbor",
+    "purls": [
+      "pkg:github/goharbor/harbor",
+      "pkg:docker/goharbor/harbor-core",
+      "pkg:docker/goharbor/harbor-exporter",
+      "pkg:docker/goharbor/harbor-jobservice",
+      "pkg:docker/goharbor/harbor-portal",
+      "pkg:docker/goharbor/harbor-registryctl",
+      "pkg:docker/goharbor/registry-photon",
+      "pkg:docker/bitnami/harbor-registry",
+      "pkg:docker/bitnami/harbor-core",
+      "pkg:docker/bitnami/harbor-exporter",
+      "pkg:docker/bitnami/harbor-jobservice",
+      "pkg:docker/bitnami/harbor-portal",
+      "pkg:docker/bitnami/harbor-registryctl",
+      "pkg:oci/harbor-core?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-jobservice?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-portal?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-registry?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-registryctl?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-core-fips?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-jobservice-fips?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-portal-fips?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-registry-fips?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-registryctl-fips?repository_url=cgr.dev/chainguard",
+      "pkg:oci/harbor-core?repository_url=quay.io/goharbor",
+      "pkg:oci/harbor-portal?repository_url=quay.io/goharbor",
+      "pkg:oci/harbor-jobservice?repository_url=quay.io/goharbor"
+    ]
+  },
+  {
+    "id": "hibernate-orm",
+    "purls": [
+      "pkg:maven/org.hibernate.orm/hibernate-core",
+      "pkg:maven/org.hibernate/hibernate-core"
+    ]
+  },
+  {
+    "id": "icinga",
+    "purls": [
+      "pkg:docker/icinga/icinga2",
+      "pkg:github/Icinga/icinga2",
+      "pkg:github/Icinga/icinga-core",
+      "pkg:chocolatey/icinga2"
+    ]
+  },
+  {
+    "id": "icinga-web",
+    "purls": [
+      "pkg:docker/icinga/icingaweb2",
+      "pkg:github/Icinga/icingaweb2",
+      "pkg:github/Icinga/icinga-web"
+    ]
+  },
+  {
+    "id": "ionic",
+    "purls": [
+      "pkg:github/ionic-team/ionic-framework",
+      "pkg:npm/%40ionic/core"
+    ]
+  },
+  {
+    "id": "isc-dhcp",
+    "purls": [
+      "pkg:docker/networkboot/dhcpd"
+    ]
+  },
+  {
+    "id": "istio",
+    "purls": [
+      "pkg:brew/istioctl",
+      "pkg:docker/istio/base",
+      "pkg:docker/istio/pilot",
+      "pkg:docker/istio/distroless",
+      "pkg:docker/istio/install-cni",
+      "pkg:docker/istio/app",
+      "pkg:docker/istio/proxyv2",
+      "pkg:docker/istio/operator",
+      "pkg:github/istio/istio"
+    ]
+  },
+  {
+    "id": "jquery",
+    "purls": [
+      "pkg:github/jquery/jquery",
+      "pkg:maven/org.webjars/jquery",
+      "pkg:npm/jquery",
+      "pkg:nuget/jQuery"
+    ]
+  },
+  {
+    "id": "jquery-ui",
+    "purls": [
+      "pkg:github/jquery/jquery-ui",
+      "pkg:maven/org.webjars/jquery-ui",
+      "pkg:npm/jquery-ui",
+      "pkg:nuget/jQuery.UI.Combined"
+    ]
+  },
+  {
+    "id": "jreleaser",
+    "purls": [
+      "pkg:apk/alpine/jreleaser",
+      "pkg:brew/jreleaser",
+      "pkg:chocolatey/jreleaser",
+      "pkg:github/jreleaser/jreleaser",
+      "pkg:docker/jreleaser/jreleaser-alpine",
+      "pkg:docker/jreleaser/jreleaser-slim",
+      "pkg:docker/jreleaser/jreleaser-ubi",
+      "pkg:maven/org.jreleaser/jreleaser",
+      "pkg:rpm/fedora/jreleaser",
+      "pkg:scoop/jreleaser",
+      "pkg:winget/JReleaser.jreleaser"
+    ]
+  },
+  {
+    "id": "jruby",
+    "purls": [
+      "pkg:github/jruby/jruby",
+      "pkg:maven/org.jruby/jruby"
+    ]
+  },
+  {
+    "id": "karpenter",
+    "purls": [
+      "pkg:github/kubernetes-sigs/karpenter",
+      "pkg:oci/karpenter?repository_url=public.ecr.aws/karpenter",
+      "pkg:oci/karpenter?repository_url=dhi.io",
+      "pkg:oci/karpenter?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "keda",
+    "purls": [
+      "pkg:github/kedacore/keda",
+      "pkg:oci/keda-admission-webhooks?repository_url=ghcr.io/kedacore",
+      "pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore",
+      "pkg:oci/keda?repository_url=ghcr.io/kedacore"
+    ]
+  },
+  {
+    "id": "keycloak",
+    "purls": [
+      "pkg:github/keycloak/keycloak",
+      "pkg:maven/org.keycloak/keycloak-core"
+    ]
+  },
+  {
+    "id": "kiali",
+    "purls": [
+      "pkg:docker/kiali/kiali",
+      "pkg:github/kiali/kiali"
+    ]
+  },
+  {
+    "id": "knative",
+    "purls": [
+      "pkg:github/knative/serving"
+    ]
+  },
+  {
+    "id": "kong-gateway",
+    "purls": [
+      "pkg:github/Kong/kong"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "purls": [
+      "pkg:github/kubernetes/kubernetes"
+    ]
+  },
+  {
+    "id": "kubernetes-csi-node-driver-registrar",
+    "purls": [
+      "pkg:oci/csi-node-driver-registrar?repository_url=k8s.gcr.io/sig-storage",
+      "pkg:github/kubernetes-csi/node-driver-registrar",
+      "pkg:golang/github.com/kubernetes-csi/node-driver-registrar"
+    ]
+  },
+  {
+    "id": "kubernetes-node-feature-discovery",
+    "purls": [
+      "pkg:github/kubernetes-sigs/node-feature-discovery"
+    ]
+  },
+  {
+    "id": "kyverno",
+    "purls": [
+      "pkg:github/kyverno/kyverno",
+      "pkg:docker/nirmata/kyverno",
+      "pkg:oci/kyverno?repository_url=cgr.dev/chainguard"
+    ]
+  },
+  {
+    "id": "laravel",
+    "purls": [
+      "pkg:composer/laravel/framework",
+      "pkg:docker/bitnami/laravel",
+      "pkg:github/laravel/framework"
+    ]
+  },
+  {
+    "id": "liquibase-secure",
+    "purls": [
+      "pkg:maven/com.liquibase/liquibase-commercial",
+      "pkg:maven/org.liquibase/liquibase-commercial",
+      "pkg:docker/liquibase/liquibase-secure"
+    ]
+  },
+  {
+    "id": "livewire",
+    "purls": [
+      "pkg:composer/livewire/livewire",
+      "pkg:github/livewire/livewire"
+    ]
+  },
+  {
+    "id": "log4j",
+    "purls": [
+      "pkg:maven/org.apache.logging.log4j/log4j-core",
+      "pkg:maven/log4j/log4j"
+    ]
+  },
+  {
+    "id": "longhorn",
+    "purls": [
+      "pkg:github/longhorn/longhorn"
+    ]
+  },
+  {
+    "id": "mariadb",
+    "purls": [
+      "pkg:apk/alpine/mariadb",
+      "pkg:deb/debian/mariadb",
+      "pkg:deb/ubuntu/mariadb",
+      "pkg:docker/library/mariadb",
+      "pkg:docker/bitnami/mariadb",
+      "pkg:docker/bitnami/mariadb-galera",
+      "pkg:brew/mariadb",
+      "pkg:rpm/amzn/mariadb-server",
+      "pkg:rpm/redhat/mariadb-server",
+      "pkg:rpm/centos/mariadb-server",
+      "pkg:rpm/opensuse/mariadb"
+    ]
+  },
+  {
+    "id": "mastodon",
+    "purls": [
+      "pkg:docker/bitnami/mastodon",
+      "pkg:docker/tootsuite/mastodon",
+      "pkg:docker/linuxserver/mastodon"
+    ]
+  },
+  {
+    "id": "matomo",
+    "purls": [
+      "pkg:docker/library/matomo",
+      "pkg:docker/bitnami/matomo",
+      "pkg:github/matomo-org/matomo"
+    ]
+  },
+  {
+    "id": "mautic",
+    "purls": [
+      "pkg:github/mautic/mautic/"
+    ]
+  },
+  {
+    "id": "memcached",
+    "purls": [
+      "pkg:generic/memcached",
+      "pkg:deb/ubuntu/memcached",
+      "pkg:deb/debian/memcached",
+      "pkg:rpm/amzn/memcached",
+      "pkg:rpm/redhat/memcached",
+      "pkg:rpm/centos/memcached",
+      "pkg:docker/library/memcached"
+    ]
+  },
+  {
+    "id": "metabase",
+    "purls": [
+      "pkg:github/metabase/metabase",
+      "pkg:docker/metabase/metabase"
+    ]
+  },
+  {
+    "id": "micronaut",
+    "purls": [
+      "pkg:github/micronaut-projects/micronaut-core",
+      "pkg:maven/io.micronaut/micronaut-core"
+    ]
+  },
+  {
+    "id": "mongodb",
+    "purls": [
+      "pkg:deb/debian/mongodb",
+      "pkg:deb/ubuntu/mongodb",
+      "pkg:rpm/amzn/mongodb-org-server",
+      "pkg:rpm/redhat/mongodb-org-server",
+      "pkg:rpm/centos/mongodb-org-server",
+      "pkg:rpm/amzn/mongodb-enterprise-server",
+      "pkg:rpm/redhat/mongodb-enterprise-server",
+      "pkg:rpm/centos/mongodb-enterprise-server"
+    ]
+  },
+  {
+    "id": "mysql",
+    "purls": [
+      "pkg:generic/mysql",
+      "pkg:docker/library/mysql",
+      "pkg:deb/ubuntu/mysql-server",
+      "pkg:deb/debian/mysql",
+      "pkg:winget/Oracle.MySQL",
+      "pkg:chocolatey/mysql"
+    ]
+  },
+  {
+    "id": "neo4j",
+    "purls": [
+      "pkg:github/neo4j/neo4j"
+    ]
+  },
+  {
+    "id": "neos",
+    "purls": [
+      "pkg:composer/neos/neos"
+    ]
+  },
+  {
+    "id": "nextjs",
+    "purls": [
+      "pkg:npm/next",
+      "pkg:github/vercel/next.js"
+    ]
+  },
+  {
+    "id": "nexus",
+    "purls": [
+      "pkg:github/sonatype/nexus-public"
+    ]
+  },
+  {
+    "id": "nginx",
+    "purls": [
+      "pkg:generic/nginx",
+      "pkg:deb/debian/nginx",
+      "pkg:deb/ubuntu/nginx",
+      "pkg:rpm/amzn/nginx",
+      "pkg:rpm/redhat/nginx",
+      "pkg:rpm/centos/nginx",
+      "pkg:apk/alpine/nginx",
+      "pkg:rpm/opensuse/nginx",
+      "pkg:github/nginx/nginx"
+    ]
+  },
+  {
+    "id": "nodejs",
+    "purls": [
+      "pkg:generic/node",
+      "pkg:docker/circleci/node",
+      "pkg:docker/library/node",
+      "pkg:docker/cimg/node",
+      "pkg:docker/bitnami/node",
+      "pkg:rpm/redhat/nodejs",
+      "pkg:rpm/redhat/nodejs24"
+    ]
+  },
+  {
+    "id": "numpy",
+    "purls": [
+      "pkg:pypi/numpy",
+      "pkg:github/numpy/numpy"
+    ]
+  },
+  {
+    "id": "nuxt",
+    "purls": [
+      "pkg:npm/nuxt",
+      "pkg:github/nuxt/nuxt"
+    ]
+  },
+  {
+    "id": "nvm",
+    "purls": [
+      "pkg:github/nvm-sh/nvm"
+    ]
+  },
+  {
+    "id": "oniguruma",
+    "purls": [
+      "pkg:github/kkos/oniguruma",
+      "pkg:deb/debian/libonig",
+      "pkg:deb/ubuntu/libonig",
+      "pkg:rpm/fedora/oniguruma",
+      "pkg:apk/alpine/oniguruma",
+      "pkg:apk/alpine/oniguruma-dev",
+      "pkg:alpm/arch/oniguruma"
+    ]
+  },
+  {
+    "id": "openbao",
+    "purls": [
+      "pkg:github/openbao/openbao",
+      "pkg:docker/openbao/openbao",
+      "pkg:docker/openbao/openbao-ubi",
+      "pkg:oci/openbao?repository_url=ghcr.io/openbao",
+      "pkg:oci/openbao-ubi?repository_url=ghcr.io/openbao",
+      "pkg:oci/openbao?repository_url=quay.io/openbao",
+      "pkg:oci/openbao-ubi?repository_url=quay.io/openbao",
+      "pkg:brew/openbao"
+    ]
+  },
+  {
+    "id": "opensearch",
+    "purls": [
+      "pkg:docker/opensearchproject/opensearch"
+    ]
+  },
+  {
+    "id": "opentofu",
+    "purls": [
+      "pkg:github/opentofu/opentofu",
+      "pkg:oci/opentofu?repository_url=ghcr.io/opentofu"
+    ]
+  },
+  {
+    "id": "openvpn",
+    "purls": [
+      "pkg:deb/debian/openvpn",
+      "pkg:deb/ubuntu/openvpn",
+      "pkg:github/openvpn/openvpn"
+    ]
+  },
+  {
+    "id": "openwrt",
+    "purls": [
+      "pkg:github/openwrt/openwrt"
+    ]
+  },
+  {
+    "id": "oracle-linux",
+    "purls": [
+      "pkg:oci/oraclelinux?repository_url=container-registry.oracle.com/ords/ocr/ba/os",
+      "pkg:oci/oraclelinux?repository_url=ghcr.io/oracle",
+      "pkg:docker/library/oraclelinux"
+    ]
+  },
+  {
+    "id": "ovirt",
+    "purls": [
+      "pkg:github/ovirt/ovirt-engine"
+    ]
+  },
+  {
+    "id": "perl",
+    "purls": [
+      "pkg:apk/alpine/perl",
+      "pkg:deb/debian/perl",
+      "pkg:deb/debian/perl-base",
+      "pkg:generic/perl"
+    ]
+  },
+  {
+    "id": "phoenix-framework",
+    "purls": [
+      "pkg:hex/phoenix",
+      "pkg:github/phoenixframework/phoenix"
+    ]
+  },
+  {
+    "id": "php",
+    "purls": [
+      "pkg:deb/ubuntu/php",
+      "pkg:deb/debian/php",
+      "pkg:generic/php",
+      "pkg:generic/php-cli",
+      "pkg:generic/php-fpm"
+    ]
+  },
+  {
+    "id": "phpmyadmin",
+    "purls": [
+      "pkg:apk/alpine/phpmyadmin",
+      "pkg:composer/phpmyadmin/phpmyadmin",
+      "pkg:deb/debian/phpmyadmin",
+      "pkg:deb/ubuntu/phpmyadmin",
+      "pkg:github/phpmyadmin/phpmyadmin",
+      "pkg:rpm/redhat/phpmyadmin",
+      "pkg:rpm/centos/phpmyadmin",
+      "pkg:docker/library/phpmyadmin"
+    ]
+  },
+  {
+    "id": "plesk",
+    "purls": [
+      "pkg:docker/plesk/plesk"
+    ]
+  },
+  {
+    "id": "pnpm",
+    "purls": [
+      "pkg:brew/pnpm",
+      "pkg:github/pnpm/pnpm",
+      "pkg:npm/pnpm",
+      "pkg:oci/pnpm?repository_url=ghcr.io/pnpm"
+    ]
+  },
+  {
+    "id": "postgresql",
+    "purls": [
+      "pkg:generic/postgresql",
+      "pkg:docker/library/postgres",
+      "pkg:deb/ubuntu/postgresql"
+    ]
+  },
+  {
+    "id": "powershell",
+    "purls": [
+      "pkg:github/powershell/powershell"
+    ]
+  },
+  {
+    "id": "prometheus",
+    "purls": [
+      "pkg:docker/prom/prometheus",
+      "pkg:docker/bitnami/prometheus",
+      "pkg:docker/rapidfort/prometheus-official",
+      "pkg:oci/prometheus?repository_url=quay.io/repository/prometheus",
+      "pkg:oci/prometheus?repository_url=cgr.dev/chainguard",
+      "pkg:github/prometheus/prometheus",
+      "pkg:golang/github.com/prometheus/prometheus"
+    ]
+  },
+  {
+    "id": "protractor",
+    "purls": [
+      "pkg:npm/protractor"
+    ]
+  },
+  {
+    "id": "proxmox-backup-server",
+    "purls": [
+      "pkg:github/proxmox/proxmox-backup"
+    ]
+  },
+  {
+    "id": "proxmox-datacenter-manager",
+    "purls": [
+      "pkg:github/proxmox/proxmox-datacenter-manager"
+    ]
+  },
+  {
+    "id": "proxmox-mail-gateway",
+    "purls": [
+      "pkg:github/proxmox/pmg-api"
+    ]
+  },
+  {
+    "id": "python",
+    "purls": [
+      "pkg:generic/python",
+      "pkg:deb/ubuntu/python",
+      "pkg:deb/ubuntu/python3.15",
+      "pkg:deb/ubuntu/python3.14",
+      "pkg:deb/ubuntu/python3.13",
+      "pkg:deb/ubuntu/python3.12",
+      "pkg:deb/ubuntu/python3.11",
+      "pkg:deb/ubuntu/python3.10",
+      "pkg:deb/ubuntu/python3.9",
+      "pkg:deb/ubuntu/python3.8",
+      "pkg:deb/ubuntu/python3.7",
+      "pkg:deb/ubuntu/python3.6",
+      "pkg:deb/ubuntu/python3.5",
+      "pkg:deb/ubuntu/python3.4",
+      "pkg:deb/ubuntu/python3.3",
+      "pkg:deb/ubuntu/python3.2",
+      "pkg:deb/ubuntu/python3.1",
+      "pkg:deb/ubuntu/python3.0",
+      "pkg:deb/ubuntu/python2.7",
+      "pkg:deb/ubuntu/python2.6",
+      "pkg:deb/ubuntu/python2.5",
+      "pkg:deb/ubuntu/python2.4",
+      "pkg:deb/ubuntu/python2.3",
+      "pkg:deb/ubuntu/python2.2",
+      "pkg:deb/ubuntu/python2.1",
+      "pkg:deb/debian/python",
+      "pkg:deb/debian/python3.15",
+      "pkg:deb/debian/python3.14",
+      "pkg:deb/debian/python3.13",
+      "pkg:deb/debian/python3.11",
+      "pkg:deb/debian/python3.9",
+      "pkg:deb/debian/python3.7",
+      "pkg:deb/debian/python3.5",
+      "pkg:deb/debian/python3.4",
+      "pkg:deb/debian/python3.2",
+      "pkg:deb/debian/python3.1",
+      "pkg:deb/debian/python2.7",
+      "pkg:deb/debian/python2.6",
+      "pkg:deb/debian/python2.5",
+      "pkg:deb/debian/python2.4",
+      "pkg:deb/debian/python2.3",
+      "pkg:deb/debian/python2.2",
+      "pkg:deb/debian/python2.1",
+      "pkg:deb/debian/python1.5",
+      "pkg:rpm/fedora/python3.15",
+      "pkg:rpm/fedora/python3.14",
+      "pkg:rpm/fedora/python3.13",
+      "pkg:rpm/fedora/python3.12",
+      "pkg:rpm/fedora/python3.11",
+      "pkg:rpm/fedora/python3.10",
+      "pkg:rpm/fedora/python3.9",
+      "pkg:rpm/fedora/python3.8",
+      "pkg:rpm/fedora/python3.6",
+      "pkg:rpm/fedora/python3.5",
+      "pkg:rpm/amzn/python",
+      "pkg:rpm/amzn/python2",
+      "pkg:rpm/amzn/python3",
+      "pkg:rpm/redhat/python",
+      "pkg:rpm/redhat/python2",
+      "pkg:rpm/redhat/python3",
+      "pkg:rpm/redhat/python27",
+      "pkg:rpm/redhat/python38",
+      "pkg:rpm/redhat/python39",
+      "pkg:rpm/redhat/python3.11",
+      "pkg:rpm/redhat/python3.12",
+      "pkg:rpm/centos/python",
+      "pkg:rpm/centos/python2",
+      "pkg:rpm/centos/python3",
+      "pkg:docker/library/python",
+      "pkg:docker/circleci/python",
+      "pkg:docker/bitnami/python",
+      "pkg:github/python/cpython"
+    ]
+  },
+  {
+    "id": "quarkus-framework",
+    "purls": [
+      "pkg:maven/io.quarkus.platform/quarkus-bom"
+    ]
+  },
+  {
+    "id": "quasar",
+    "purls": [
+      "pkg:npm/quasar"
+    ]
+  },
+  {
+    "id": "rails",
+    "purls": [
+      "pkg:gem/rails",
+      "pkg:github/rails/rails"
+    ]
+  },
+  {
+    "id": "rancher",
+    "purls": [
+      "pkg:docker/rancher/rancher"
+    ]
+  },
+  {
+    "id": "react",
+    "purls": [
+      "pkg:github/facebook/react",
+      "pkg:npm/react"
+    ]
+  },
+  {
+    "id": "react-native",
+    "purls": [
+      "pkg:github/facebook/react-native",
+      "pkg:npm/react-native"
+    ]
+  },
+  {
+    "id": "redhat-build-of-openjdk",
+    "purls": [
+      "pkg:rpm/redhat/java-1.6.0-openjdk",
+      "pkg:rpm/redhat/java-1.7.0-openjdk",
+      "pkg:rpm/redhat/java-1.7.0-openjdk-headless",
+      "pkg:rpm/redhat/java-1.8.0-openjdk",
+      "pkg:rpm/redhat/java-1.8.0-openjdk-debug",
+      "pkg:rpm/redhat/java-1.8.0-openjdk-headless",
+      "pkg:rpm/redhat/java-1.8.0-openjdk-headless-debug",
+      "pkg:rpm/redhat/java-11-openjdk",
+      "pkg:rpm/redhat/java-11-openjdk-debug",
+      "pkg:rpm/redhat/java-11-openjdk-headless-debug",
+      "pkg:rpm/redhat/java-1.6.0-openjdk-devel",
+      "pkg:rpm/redhat/java-1.7.0-openjdk-devel",
+      "pkg:rpm/redhat/java-1.8.0-openjdk-devel",
+      "pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug",
+      "pkg:rpm/redhat/java-11-openjdk-devel",
+      "pkg:rpm/redhat/java-11-openjdk-devel-debug",
+      "pkg:rpm/redhat/java-17-openjdk",
+      "pkg:rpm/redhat/java-17-openjdk-devel",
+      "pkg:rpm/redhat/java-17-openjdk-headless",
+      "pkg:rpm/redhat/java-17-openjdk-headless-devel",
+      "pkg:rpm/redhat/java-21-openjdk",
+      "pkg:rpm/redhat/java-21-openjdk-devel",
+      "pkg:rpm/redhat/java-21-openjdk-headless",
+      "pkg:rpm/redhat/java-21-openjdk-headless-devel",
+      "pkg:rpm/redhat/java-25-openjdk",
+      "pkg:rpm/redhat/java-25-openjdk-devel",
+      "pkg:rpm/redhat/java-25-openjdk-headless",
+      "pkg:rpm/redhat/java-25-openjdk-headless-devel"
+    ]
+  },
+  {
+    "id": "redis",
+    "purls": [
+      "pkg:generic/redis",
+      "pkg:deb/ubuntu/redis",
+      "pkg:deb/debian/redis",
+      "pkg:rpm/amzn/redis",
+      "pkg:rpm/redhat/redis",
+      "pkg:rpm/centos/redis",
+      "pkg:docker/library/redis",
+      "pkg:docker/redislabs/redis",
+      "pkg:docker/bitnami/redis",
+      "pkg:docker/circleci/redis",
+      "pkg:docker/cimg/redis",
+      "pkg:docker/ubuntu/redis",
+      "pkg:brew/redis/redis"
+    ]
+  },
+  {
+    "id": "renovate",
+    "purls": [
+      "pkg:npm/renovate",
+      "pkg:docker/renovate/renovate",
+      "pkg:oci/renovate?repository_url=ghcr.io/renovatebot",
+      "pkg:brew/renovate"
+    ]
+  },
+  {
+    "id": "robo",
+    "purls": [
+      "pkg:composer/consolidation/robo",
+      "pkg:github/consolidation/robo"
+    ]
+  },
+  {
+    "id": "ros",
+    "purls": [
+      "pkg:github/ros/ros"
+    ]
+  },
+  {
+    "id": "ruby",
+    "purls": [
+      "pkg:alpm/arch/ruby",
+      "pkg:brew/ruby",
+      "pkg:docker/library/ruby",
+      "pkg:generic/ruby",
+      "pkg:rpm/fedora/ruby",
+      "pkg:rpm/redhat/ruby",
+      "pkg:rpm/centos/ruby"
+    ]
+  },
+  {
+    "id": "salt",
+    "purls": [
+      "pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro",
+      "pkg:docker/saltstack/salt"
+    ]
+  },
+  {
+    "id": "samba",
+    "purls": [
+      "pkg:github/samba-team/samba"
+    ]
+  },
+  {
+    "id": "silverstripe",
+    "purls": [
+      "pkg:composer/silverstripe/cms",
+      "pkg:github/silverstripe/silverstripe-installer"
+    ]
+  },
+  {
+    "id": "sourcegraph",
+    "purls": [
+      "pkg:docker/sourcegraph/sg"
+    ]
+  },
+  {
+    "id": "spring-boot",
+    "purls": [
+      "pkg:maven/org.springframework.boot/spring-boot",
+      "pkg:maven/org.springframework.boot/spring-boot-starter",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-data-mongodb",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-security",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-amqp",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-websocket",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-actuator",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-undertow",
+      "pkg:maven/org.springframework.boot/spring-boot-autoconfigure",
+      "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-webflux",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-aop",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-logging",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-batch",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-log4j2",
+      "pkg:maven/org.springframework.boot/spring-boot-starter-validation",
+      "pkg:github/spring-projects/spring-boot"
+    ]
+  },
+  {
+    "id": "spring-cloud",
+    "purls": [
+      "pkg:github/spring-cloud/spring-cloud-release",
+      "pkg:maven/org.springframework.cloud/spring-cloud-dependencies",
+      "pkg:maven/org.springframework.cloud/spring-cloud-commons",
+      "pkg:maven/org.springframework.cloud/spring-cloud-config",
+      "pkg:maven/org.springframework.cloud/spring-cloud-gateway",
+      "pkg:maven/org.springframework.cloud/spring-cloud-netflix"
+    ]
+  },
+  {
+    "id": "spring-framework",
+    "purls": [
+      "pkg:github/spring-projects/spring-framework",
+      "pkg:maven/org.springframework/spring-core",
+      "pkg:maven/org.springframework/spring-aop",
+      "pkg:maven/org.springframework/spring-beans",
+      "pkg:maven/org.springframework/spring-context",
+      "pkg:maven/org.springframework/spring-expression",
+      "pkg:maven/org.springframework/spring-jdbc",
+      "pkg:maven/org.springframework/spring-jms",
+      "pkg:maven/org.springframework/spring-messaging",
+      "pkg:maven/org.springframework/spring-orm",
+      "pkg:maven/org.springframework/spring-oxm",
+      "pkg:maven/org.springframework/spring-tx",
+      "pkg:maven/org.springframework/spring-web",
+      "pkg:maven/org.springframework/spring-webmvc",
+      "pkg:maven/org.springframework/spring-websocket"
+    ]
+  },
+  {
+    "id": "spring-security",
+    "purls": [
+      "pkg:github/spring-projects/spring-security",
+      "pkg:maven/org.springframework.security/spring-security-core",
+      "pkg:maven/org.springframework.security/spring-security-web",
+      "pkg:maven/org.springframework.security/spring-security-config",
+      "pkg:maven/org.springframework.security/spring-security-oauth2-core",
+      "pkg:maven/org.springframework.security/spring-security-oauth2-client"
+    ]
+  },
+  {
+    "id": "sqlite",
+    "purls": [
+      "pkg:generic/sqlite",
+      "pkg:apk/alpine/sqlite",
+      "pkg:github/sqlite/sqlite"
+    ]
+  },
+  {
+    "id": "squid",
+    "purls": [
+      "pkg:deb/debian/squid",
+      "pkg:deb/ubuntu/squid",
+      "pkg:rpm/amzn/squid",
+      "pkg:rpm/redhat/squid",
+      "pkg:rpm/centos/squid",
+      "pkg:apk/alpine/squid"
+    ]
+  },
+  {
+    "id": "statamic",
+    "purls": [
+      "pkg:composer/statamic/cms",
+      "pkg:github/statamic/cms"
+    ]
+  },
+  {
+    "id": "strapi",
+    "purls": [
+      "pkg:github/strapi/strapi",
+      "pkg:npm/%40strapi/strapi"
+    ]
+  },
+  {
+    "id": "svelte",
+    "purls": [
+      "pkg:npm/svelte",
+      "pkg:github/sveltejs/svelte"
+    ]
+  },
+  {
+    "id": "sylius",
+    "purls": [
+      "pkg:composer/sylius/sylius",
+      "pkg:github/sylius/sylius"
+    ]
+  },
+  {
+    "id": "tailwind-css",
+    "purls": [
+      "pkg:github/tailwindlabs/tailwindcss",
+      "pkg:npm/tailwindcss"
+    ]
+  },
+  {
+    "id": "tarteaucitron",
+    "purls": [
+      "pkg:github/AmauriC/tarteaucitron.js",
+      "pkg:npm/tarteaucitronjs"
+    ]
+  },
+  {
+    "id": "teleport",
+    "purls": [
+      "pkg:github/gravitational/teleport"
+    ]
+  },
+  {
+    "id": "terraform",
+    "purls": [
+      "pkg:github/hashicorp/terraform",
+      "pkg:generic/terraform"
+    ]
+  },
+  {
+    "id": "tomcat",
+    "purls": [
+      "pkg:maven/org.apache.tomcat/tomcat",
+      "pkg:github/apache/tomcat"
+    ]
+  },
+  {
+    "id": "traefik",
+    "purls": [
+      "pkg:brew/traefik",
+      "pkg:github/traefik/traefik",
+      "pkg:generic/traefik",
+      "pkg:docker/library/traefik"
+    ]
+  },
+  {
+    "id": "typo3",
+    "purls": [
+      "pkg:composer/typo3/cms"
+    ]
+  },
+  {
+    "id": "unity",
+    "purls": [
+      "pkg:chocolatey/unity"
+    ]
+  },
+  {
+    "id": "unrealircd",
+    "purls": [
+      "pkg:docker/bbriggs/unrealircd"
+    ]
+  },
+  {
+    "id": "valkey",
+    "purls": [
+      "pkg:github/valkey-io/valkey",
+      "pkg:docker/valkey/valkey"
+    ]
+  },
+  {
+    "id": "vinyl-cache",
+    "purls": [
+      "pkg:brew/varnish",
+      "pkg:docker/library/varnish"
+    ]
+  },
+  {
+    "id": "vitess",
+    "purls": [
+      "pkg:github/vitessio/vitess",
+      "pkg:docker/vitess/lite"
+    ]
+  },
+  {
+    "id": "vue",
+    "purls": [
+      "pkg:npm/vue",
+      "pkg:github/vuejs/vue",
+      "pkg:github/vuejs/core"
+    ]
+  },
+  {
+    "id": "vuetify",
+    "purls": [
+      "pkg:npm/vuetify"
+    ]
+  },
+  {
+    "id": "wagtail",
+    "purls": [
+      "pkg:pypi/wagtail"
+    ]
+  },
+  {
+    "id": "windows-nano-server",
+    "purls": [
+      "pkg:docker/microsoft/windows-nanoserver"
+    ]
+  },
+  {
+    "id": "wireshark",
+    "purls": [
+      "pkg:docker/linuxserver/wireshark",
+      "pkg:docker/linuxserver/wireshark?repository_url=lscr.io",
+      "pkg:winget/WiresharkFoundation.Wireshark",
+      "pkg:chocolatey/wireshark"
+    ]
+  },
+  {
+    "id": "wordpress",
+    "purls": [
+      "pkg:docker/library/wordpress",
+      "pkg:docker/bitnami/wordpress",
+      "pkg:docker/bitnami/wordpress-nginx"
+    ]
+  },
+  {
+    "id": "yarn",
+    "purls": [
+      "pkg:github/yarnpkg/berry",
+      "pkg:github/yarnpkg/yarn",
+      "pkg:npm/yarn"
+    ]
+  },
+  {
+    "id": "zabbix",
+    "purls": [
+      "pkg:brew/zabbix",
+      "pkg:github/zabbix/zabbix"
+    ]
+  },
+  {
+    "id": "zookeeper",
+    "purls": [
+      "pkg:maven/org.apache.zookeeper/zookeeper",
+      "pkg:github/apache/zookeeper",
+      "pkg:docker/library/zookeeper",
+      "pkg:deb/debian/zookeeper"
+    ]
+  }
+]

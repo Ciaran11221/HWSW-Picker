@@ -1,0 +1,7 @@
+{
+  "id": "duplicate-tag-kept-versionless-copy",
+  "date": "2026-11-01",
+  "what_happened": "postgres:${PG_VERSION} followed by postgres:15 kept the first copy, so the known version 15 was lost.",
+  "rule": "When a tag repeats in one file, keep the first unless only a later copy has a version.",
+  "guard": "tests/manifests.test.ts > fills in a version from a later duplicate when the first had none"
+}
