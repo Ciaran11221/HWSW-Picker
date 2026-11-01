@@ -16,7 +16,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "corpus:index": "tsx scripts/corpus-index.ts",
     "fixtures:update": "tsx packages/pipeline/src/update-fixtures.ts",
-    "eol:snapshot": "tsx scripts/eol-snapshot.ts"
+    "eol:snapshot": "tsx scripts/eol-snapshot.ts",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
