@@ -149,3 +149,28 @@ export interface ParseResult {
   tags: ManifestTag[];
   errors: PipelineError[];
 }
+
+/** Summary of one pipeline run. Stored in dataset.json (`run`) for the site banner. */
+export interface RunSummary {
+  /** `YYYY-MM-DD` the run started. */
+  date: string;
+  /** Repos listed by the league search. */
+  repos: number;
+  /** Repos kept (>= 2 contributors). */
+  kept: number;
+  /** Kept repos with at least one tag. */
+  withTags: number;
+  /** Error count per kind (`fetch`, `rate_limit`, `parse`, ...). Kinds with no errors are absent. */
+  errors: Partial<Record<PipelineErrorKind, number>>;
+  /** False when the run is not trustworthy (see pipeline report.ts). */
+  ok: boolean;
+}
+
+/** The file the pipeline writes and the site reads: `data/dataset.json`. */
+export interface Dataset {
+  schemaVersion: 1;
+  run: RunSummary;
+  /** Tag families from corpus/families; the site groups tags with these. */
+  families: Family[];
+  repos: RepoRecord[];
+}

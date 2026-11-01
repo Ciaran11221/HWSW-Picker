@@ -11,6 +11,8 @@
   ],
   "scripts": {
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "pipeline": "tsx packages/pipeline/src/cli.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "corpus:index": "tsx scripts/corpus-index.ts",
     "fixtures:update": "tsx packages/pipeline/src/update-fixtures.ts",
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^5.0.5",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.0.5"

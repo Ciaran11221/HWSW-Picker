@@ -1,0 +1,24 @@
+{
+  "root": { "entries": [
+    { "name": "package.json", "type": "blob" },
+    { "name": "README.md", "type": "blob" },
+    { "name": "Dockerfile", "type": "blob" },
+    { "name": "src", "type": "tree" }
+  ] },
+  "apps": { "entries": [
+    { "name": "web", "type": "tree", "object": { "entries": [
+      { "name": "package.json", "type": "blob" },
+      { "name": "page.tsx", "type": "blob" }
+    ] } },
+    { "name": "notes.txt", "type": "blob", "object": null }
+  ] },
+  "packages": null,
+  "frontend": { "entries": [
+    { "name": "package.json", "type": "blob" },
+    { "name": "logo.png", "type": "blob" }
+  ] },
+  "backend": { "entries": [
+    { "name": "requirements.txt", "type": "blob" },
+    { "name": "main.py", "type": "blob" }
+  ] }
+}
