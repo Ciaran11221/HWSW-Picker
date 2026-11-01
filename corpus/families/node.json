@@ -3,5 +3,5 @@
   "name": "Node.js",
   "kind": "runtime",
   "members": ["npm:@types/node", "docker:node"],
-  "eol": null
+  "eol": "nodejs"
 }

@@ -17,6 +17,8 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | `scripts` | Repo tooling (index generator) |
 | `tests` | Repo-level tests: map coverage, corpus schema, index freshness |
 | `spike` | Phase 0 throwaway Python measurements and `REPORT.md`. Not part of the product |
+| `HANDOFF.md` | Current state, traps, next steps with falsifiers, not verified |
+| `WORKLOG.md` | One row per merged PR: who wrote, who reviewed, test counts |
 
 ## Commands
 

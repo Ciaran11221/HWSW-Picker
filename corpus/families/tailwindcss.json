@@ -3,5 +3,5 @@
   "name": "Tailwind CSS",
   "kind": "library",
   "members": ["npm:tailwindcss"],
-  "eol": null
+  "eol": "tailwind-css"
 }

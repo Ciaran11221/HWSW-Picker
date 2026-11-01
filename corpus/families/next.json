@@ -3,5 +3,5 @@
   "name": "Next.js",
   "kind": "framework",
   "members": ["npm:next"],
-  "eol": null
+  "eol": "nextjs"
 }
