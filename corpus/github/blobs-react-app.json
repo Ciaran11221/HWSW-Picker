@@ -1,0 +1,7 @@
+{
+  "package.json": { "isTruncated": false, "isBinary": false, "text": "{\"dependencies\":{\"react\":\"^18.2.0\",\"react-dom\":\"^18.2.0\"},\"devDependencies\":{\"vitest\":\"^1.0.0\"}}" },
+  "Dockerfile": { "isTruncated": false, "isBinary": false, "text": "FROM node:20-alpine\nRUN npm ci\n" },
+  "apps/web/package.json": { "isTruncated": false, "isBinary": false, "text": "{\"dependencies\":{\"react\":\"^18.2.0\",\"zod\":\"^3.22.0\"}}" },
+  "frontend/package.json": { "isTruncated": true, "isBinary": false, "text": "{\"dependencies\":{" },
+  "backend/requirements.txt": { "isTruncated": false, "isBinary": false, "text": "requests==2.31.0\nnumpy>=1.26\n" }
+}

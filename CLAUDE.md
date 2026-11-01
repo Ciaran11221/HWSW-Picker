@@ -13,6 +13,10 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | `packages/core` | Shared types: tag ids, families, repo records, out-of-date status. Used by both the pipeline and the site |
 | `packages/pipeline` | Fetch repos (GitHub GraphQL), parse manifests, apply families and out-of-date flags, write the dataset. `src/parsers/` has one module per manifest format plus `parseManifest(fileName, content)` |
 | `corpus/manifests` | Golden fixtures for the manifest parsers: `<format>/<case>.<original file name>` plus `<case>.expected.json`. Change expected files only with `npm run fixtures:update`, then read the diff |
+| `packages/pipeline/src/github` | GitHub access: `client.ts` (token, retries, rate-limit waits, call counts), `league.ts` (date/star-sliced search), `contributors.ts`, `manifests.ts` (tree query then blob query, batches of 12) |
+| `packages/pipeline/src/{assemble,report,run,cli}.ts` | Repo + manifests -> RepoRecord; run report (job summary, issue body, `run` object, 5% rule); `runPipeline` / `writeOutputs`; CLI |
+| `corpus/github` | Hand-made GitHub responses for tests (search, contributors, tree, blob). No network in tests |
+| `tests/helpers/fakeGithub.ts` | Fake clock and fake `fetch` for GitHub tests |
 | `corpus/families` | One JSON file per tag family (e.g. `react.json` groups `npm:react`, `npm:react-dom`, `npm:@types/react`) |
 | `corpus/INDEX.md` | Generated list of all families. Never edit by hand: `npm run corpus:index` |
 | `corpus/mistakes` | One JSON file per past mistake: what happened, rule, guard test. `INDEX.md` there is generated: `npm run corpus:index` |
@@ -31,6 +35,7 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | `npm test` | All tests (vitest) |
 | `npm run test:coverage` | All tests plus the coverage gate: fails under 80% of lines in `packages/*/src` (what CI runs) |
 | `npm run typecheck` | `tsc --noEmit` across packages |
+| `npm run pipeline -- --limit N --out data/` | Needs `GITHUB_TOKEN`. Writes `data/dataset.json` only when the run is ok; otherwise `data/run-failed.json` + `issue-body.md`, exit 1 |
 | `npm run corpus:index` | Regenerate `corpus/INDEX.md` |
 | `npm run fixtures:update` | Rewrite every `corpus/manifests/**/*.expected.json` from the current parsers. Review the diff before committing |
 
@@ -51,3 +56,4 @@ A test (`tests/map.test.ts`) fails if a folder under `packages/` has no row here
 | 2026-11-01 | `main` is protected: PR + green `test` check + up to date, admins included, no force-push |
 | 2026-11-01 | Coverage gate: 80% lines in `packages/*/src`, enforced in CI |
 | 2026-11-01 | Error reports: Actions job summary + auto-opened issue on scheduled failure + site banner |
+| 2026-11-01 | A run is ok only with no early stop, no error outside a repo, and at most 5% of listed repos with an error. A failed run never overwrites `dataset.json` |

@@ -1,0 +1,8 @@
+{
+  "total_count": 2,
+  "incomplete_results": false,
+  "items": [
+    { "full_name": "acme/shiny", "stargazers_count": 120, "created_at": "2026-03-04T10:00:00Z", "language": "TypeScript" },
+    { "full_name": "acme/quiet", "stargazers_count": 55, "created_at": "2026-03-04T12:30:00Z", "language": null }
+  ]
+}

@@ -11,6 +11,8 @@
   ],
   "scripts": {
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "pipeline": "tsx packages/pipeline/src/cli.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "corpus:index": "tsx scripts/corpus-index.ts",
     "fixtures:update": "tsx packages/pipeline/src/update-fixtures.ts",
