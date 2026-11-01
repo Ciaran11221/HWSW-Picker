@@ -1,0 +1,7 @@
+{
+  "id": "requests",
+  "name": "Requests",
+  "kind": "library",
+  "members": ["pypi:requests"],
+  "eol": null
+}

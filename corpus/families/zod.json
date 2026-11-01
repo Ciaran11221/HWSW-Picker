@@ -1,0 +1,7 @@
+{
+  "id": "zod",
+  "name": "Zod",
+  "kind": "library",
+  "members": ["npm:zod"],
+  "eol": null
+}

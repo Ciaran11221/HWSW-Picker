@@ -1,0 +1,7 @@
+{
+  "id": "python",
+  "name": "Python",
+  "kind": "language",
+  "members": ["docker:python"],
+  "eol": "python"
+}

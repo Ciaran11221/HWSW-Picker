@@ -1,0 +1,7 @@
+{
+  "id": "transformers",
+  "name": "Transformers",
+  "kind": "library",
+  "members": ["pypi:transformers"],
+  "eol": null
+}

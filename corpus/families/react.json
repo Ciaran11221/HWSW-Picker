@@ -1,0 +1,7 @@
+{
+  "id": "react",
+  "name": "React",
+  "kind": "library",
+  "members": ["npm:react", "npm:react-dom", "npm:@types/react", "npm:@types/react-dom"],
+  "eol": "react"
+}

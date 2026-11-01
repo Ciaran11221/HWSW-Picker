@@ -1,0 +1,7 @@
+{
+  "id": "tsx",
+  "name": "tsx",
+  "kind": "tool",
+  "members": ["npm:tsx"],
+  "eol": null
+}

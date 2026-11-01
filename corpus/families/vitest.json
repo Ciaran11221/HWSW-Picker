@@ -1,0 +1,7 @@
+{
+  "id": "vitest",
+  "name": "Vitest",
+  "kind": "tool",
+  "members": ["npm:vitest"],
+  "eol": null
+}

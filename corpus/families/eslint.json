@@ -1,0 +1,7 @@
+{
+  "id": "eslint",
+  "name": "ESLint",
+  "kind": "tool",
+  "members": ["npm:eslint"],
+  "eol": "eslint"
+}

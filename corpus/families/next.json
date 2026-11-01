@@ -1,0 +1,7 @@
+{
+  "id": "next",
+  "name": "Next.js",
+  "kind": "framework",
+  "members": ["npm:next"],
+  "eol": null
+}

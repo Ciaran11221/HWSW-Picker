@@ -1,0 +1,7 @@
+{
+  "id": "huggingface-hub",
+  "name": "huggingface_hub",
+  "kind": "library",
+  "members": ["pypi:huggingface-hub"],
+  "eol": null
+}
